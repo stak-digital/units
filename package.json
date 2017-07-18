@@ -1,0 +1,8 @@
+{
+  "name": "units",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://3stacks@github.com/stak-digital/units.git",
+  "author": "Luke Boyle <luke.boyle.au@gmail.com>",
+  "license": "MIT"
+}
