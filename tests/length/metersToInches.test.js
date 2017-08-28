@@ -8,3 +8,11 @@ test('it should exist', () => {
 	).toExist();
 
 });
+
+test('the function should return the correct amount', () => {
+
+	expect(
+		metersToInches(1)
+	).toBe(39.37);
+
+});
