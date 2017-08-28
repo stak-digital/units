@@ -1,5 +1,5 @@
 import poundsToKilograms from './weight/poundsToKilograms';
 
-export {
+export default {
 	poundsToKilograms
 };

@@ -1,7 +1,7 @@
 import length from './length';
 import weight from './weight';
 
-export {
+export default {
 	length,
 	weight
 };
