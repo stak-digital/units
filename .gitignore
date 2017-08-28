@@ -1,5 +1,8 @@
 inchesToMeters.js
+poundsToKilograms.js
 index.js
 length.js
-poundsToKilograms.js
 weight.js
+!src/index.js
+!src/length.js
+!src/weight.js
