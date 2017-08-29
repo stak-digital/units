@@ -1,4 +1,4 @@
-import inchesToMeters from './length/inchesToMeters';
+import inchesToMeters from './length/inches-to-meters';
 
 export default {
 	inchesToMeters
