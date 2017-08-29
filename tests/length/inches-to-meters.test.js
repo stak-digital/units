@@ -1,4 +1,4 @@
-import inchesToMeters from '../../src/length/inchesToMeters';
+import inchesToMeters from '../../src/length/inches-to-meters';
 import expect from 'expect';
 
 test('it should exist', () => {
