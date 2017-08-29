@@ -6,7 +6,6 @@
   "author": "Stak Digital",
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.9.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "7",
     "babel-jest": "^20.0.3",
