@@ -1,37 +1,62 @@
+Units is a highly modular unit conversion library.
+
+The library is split into three tiers:
+
+- Library (index.js)
+- Conversion category (weight.js, length.js)
+- Individual function (poundsToKilograms.js)
+
+## Usage
+
+### Library Version
+
 ```javascript
-import {convertPounds} from '@stak-digital/units/pounds';
+import units from '@stak-digital/units';
 
-// Option 1
-convertPounds(160).toKilograms();
-    // returns 72.57
-    
-// Option 2
-convertPounds(160).to('kg');
-    // returns 72.57
-    
-// Option 3
-convertPounds(160).kilograms;
-    // returns 72.57
-    
-// With option 1...
-
-function convertPounds(pounds) {
-    return {
-        toKilograms() {
-            return pounds * 0.45;
-        }
-    }
-}
-
-// Option 2 is my least favourite because it's magic strings and results in lots of different branches in a single function (`to`)
-
-// With option 3...
-
-function convertPounds(pounds) {
-    return {
-        get kilograms() {
-            return pounds * 0.45;
-        }
-    }
-}
+const amountInPounds = 60;
+const amountInKilograms = units.poundsToKilograms(amountInPounds);
+    // 27.2155
+     
+const amountInInches = 30;
+const amountInMeters = units.inchesToMeters(amountInInches);
+    // 0.762
 ```
+
+### Category Version
+
+```javascript
+import convertWeight from '@stak-digital/units/weight';
+import convertLength from '@stak-digital/units/length';
+
+const amountInPounds = 60;
+const amountInKilograms = convertWeight.poundsToKilograms(amountInPounds);
+    // 27.2155
+     
+const amountInInches = 30;
+const amountInMeters = convertLength.inchesToMeters(amountInInches);
+    // 0.762
+```
+
+### Individual Functions
+
+```javascript
+import poundsToKilograms from '@stak-digital/units/pounds-to-kilograms';
+import inchesToMeters from '@stak-digital/units/inches-to-meters';
+
+const amountInPounds = 60;
+const amountInKilograms = poundsToKilograms(amountInPounds);
+    // 27.2155
+     
+const amountInInches = 30;
+const amountInMeters = inchesToMeters(amountInInches);
+    // 0.762
+```
+
+## API
+
+### Length
+
+
+
+### Weight
+
