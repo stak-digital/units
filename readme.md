@@ -56,7 +56,18 @@ const amountInMeters = inchesToMeters(amountInInches);
 
 ### Length
 
+Available Functions
 
+| Name | Category | Arguments | Description |
+| -------------- | ------ | --------------- | --------------------------------- |
+| inchesToMeters | length | inches <number> | Convert inches (in) to meters (m) | 
+| metersToInches | length | meters <number> | Convert meters (m) to inches (in) | 
 
 ### Weight
+
+Available Functions
+
+| Name | Category | Arguments | Description |
+| -------------- | ------ | --------------- | --------------------------------- |
+| poundsToKilograms | weight | pounds <number> | Convert pounds (lb) to kilograms (kg) | 
 
