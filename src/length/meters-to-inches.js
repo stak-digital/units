@@ -4,5 +4,5 @@
  * @returns {number}
  */
 export default function(metres) {
-	return metres * 39.37;
+	return metres * 39.3701;
 }
