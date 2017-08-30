@@ -3,6 +3,7 @@ import kilogramsToStones from './weight/kilograms-to-stones';
 import poundsToKilograms from './weight/pounds-to-kilograms';
 import stonesToKilograms from './weight/stones-to-kilograms';
 import poundsToStones from './weight/pounds-to-stones';
+import stonesToPounds from './weight/stones-to-pounds';
 
 export default {
 	poundsToKilograms,
@@ -10,4 +11,5 @@ export default {
 	kilogramsToStones,
 	stonesToKilograms,
 	poundsToStones,
+	stonesToPounds
 };
