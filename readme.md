@@ -75,3 +75,12 @@ Available Functions
 | kilogramsToPounds | weight | kilograms <number> | Convert kilograms (kg) to pounds (lb) | 
 | kilogramsToStones | weight | kilograms <number> | Convert kilograms (kg) to stones (st) | 
 | stonesToKilograms | weight | stones <number> | Convert stones (st) to kilograms (kg) | 
+| stonesToPounds | weight | stones <number> | Convert stones (st) to pounds (lb) | 
+| poundsToStones | weight | pounds <number> | Convert pounds (lb) to stones (st) | 
+
+## Changelog
+
+### 1.1.0
+
+- Add stonesToPounds function
+- Add poundsToStones function
