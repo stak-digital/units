@@ -85,6 +85,10 @@ Available Functions
 
 ## Changelog
 
+### 1.2.2
+
+- Add codecov integration
+
 ### 1.2.1
 
 - Add travis-ci integration
