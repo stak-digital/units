@@ -81,7 +81,22 @@ Available Functions
 | kilogramsToStones | weight | kilograms <number> | Convert kilograms (kg) to stones (st) | 
 | stonesToKilograms | weight | stones <number> | Convert stones (st) to kilograms (kg) | 
 | stonesToPounds | weight | stones <number> | Convert stones (st) to pounds (lb) | 
-| poundsToStones | weight | pounds <number> | Convert pounds (lb) to stones (st) | 
+| poundsToStones | weight | pounds <number> | Convert pounds (lb) to stones (st) |
+ 
+### Time
+
+Available Functions
+
+| Name | Category | Arguments | Description |
+| -------------- | ------ | --------------- | --------------------------------- |
+| daysToMilliseconds | time | days <number> | Convert days to milliseconds | 
+| hoursToMilliseconds | time | hours <number> | Convert hours to milliseconds | 
+| millisecondsToDays | time | milliseconds <number> | Convert milliseconds to days | 
+| millisecondsToHours | time | milliseconds <number> | Convert milliseconds to hours | 
+| millisecondsToMinutes | time | milliseconds <number> | Convert milliseconds to minutes | 
+| millisecondsToSeconds | time | milliseconds <number> | Convert milliseconds to seconds | 
+| minutesToMilliseconds | time | minutes <number> | Convert minutes to milliseconds | 
+| secondsToMilliseconds | time | seconds <number> | Convert seconds to milliseconds | 
 
 ## Changelog
 
