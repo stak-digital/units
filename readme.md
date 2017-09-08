@@ -1,7 +1,7 @@
 # Units
 
 [![Build Status](https://travis-ci.org/stak-digital/units.svg?branch=master)](https://travis-ci.org/stak-digital/units)
-[![Coverage Status](https://coveralls.io/repos/github/stak-digital/units/badge.svg?branch=master)](https://coveralls.io/github/stak-digital/units?branch=master)
+[![codecov](https://codecov.io/gh/stak-digital/units/branch/master/graph/badge.svg)](https://codecov.io/gh/stak-digital/units)
 
 A highly modular unit conversion library.
 
