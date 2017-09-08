@@ -1,4 +1,9 @@
-Units is a highly modular unit conversion library.
+# Units
+
+[![Build Status](https://travis-ci.org/stak-digital/units.svg?branch=master)](https://travis-ci.org/stak-digital/units)
+[![Coverage Status](https://coveralls.io/repos/github/stak-digital/units/badge.svg?branch=master)](https://coveralls.io/github/stak-digital/units?branch=master)
+
+A highly modular unit conversion library.
 
 The library is split into three tiers:
 
