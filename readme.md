@@ -80,6 +80,10 @@ Available Functions
 
 ## Changelog
 
+### 1.2.1
+
+- Add travis-ci integration
+
 ### 1.2.0
 
 - add time functions to time.js
