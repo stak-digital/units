@@ -1,4 +1,9 @@
-Units is a highly modular unit conversion library.
+# Units
+
+[![Build Status](https://travis-ci.org/stak-digital/units.svg?branch=master)](https://travis-ci.org/stak-digital/units)
+[![codecov](https://codecov.io/gh/stak-digital/units/branch/master/graph/badge.svg)](https://codecov.io/gh/stak-digital/units)
+
+A highly modular unit conversion library.
 
 The library is split into three tiers:
 
@@ -76,9 +81,48 @@ Available Functions
 | kilogramsToStones | weight | kilograms <number> | Convert kilograms (kg) to stones (st) | 
 | stonesToKilograms | weight | stones <number> | Convert stones (st) to kilograms (kg) | 
 | stonesToPounds | weight | stones <number> | Convert stones (st) to pounds (lb) | 
-| poundsToStones | weight | pounds <number> | Convert pounds (lb) to stones (st) | 
+| poundsToStones | weight | pounds <number> | Convert pounds (lb) to stones (st) |
+ 
+### Time
+
+Available Functions
+
+| Name | Category | Arguments | Description |
+| -------------- | ------ | --------------- | --------------------------------- |
+| daysToMilliseconds | time | days <number> | Convert days to milliseconds | 
+| hoursToMilliseconds | time | hours <number> | Convert hours to milliseconds | 
+| millisecondsToDays | time | milliseconds <number> | Convert milliseconds to days | 
+| millisecondsToHours | time | milliseconds <number> | Convert milliseconds to hours | 
+| millisecondsToMinutes | time | milliseconds <number> | Convert milliseconds to minutes | 
+| millisecondsToSeconds | time | milliseconds <number> | Convert milliseconds to seconds | 
+| minutesToMilliseconds | time | minutes <number> | Convert minutes to milliseconds | 
+| secondsToMilliseconds | time | seconds <number> | Convert seconds to milliseconds | 
 
 ## Changelog
+
+### 1.2.3
+
+- Add documentation for time functions
+
+### 1.2.2
+
+- Add codecov integration
+
+### 1.2.1
+
+- Add travis-ci integration
+
+### 1.2.0
+
+- add time functions to time.js
+- add millisecondsToSeconds function 
+- add millisecondsToMinutes function
+- add millisecondsToHours function
+- add millisecondsToDays function
+- add secondsToMilliseconds function
+- add minutesToMilliseconds function
+- add hoursToMilliseconds function
+- add daysToMilliseconds function
 
 ### 1.1.0
 
