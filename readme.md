@@ -80,6 +80,18 @@ Available Functions
 
 ## Changelog
 
+### 1.2.0
+
+- add time functions to time.js
+- add millisecondsToSeconds function 
+- add millisecondsToMinutes function
+- add millisecondsToHours function
+- add millisecondsToDays function
+- add secondsToMilliseconds function
+- add minutesToMilliseconds function
+- add hoursToMilliseconds function
+- add daysToMilliseconds function
+
 ### 1.1.0
 
 - Add stonesToPounds function
