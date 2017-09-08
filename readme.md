@@ -100,6 +100,10 @@ Available Functions
 
 ## Changelog
 
+### 1.2.3
+
+- Add documentation for time functions
+
 ### 1.2.2
 
 - Add codecov integration
