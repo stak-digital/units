@@ -42,15 +42,16 @@ function getFileNameFromPath(path) {
 					description: tag.description
 				};
 			});
+			const srcIndex = file.indexOf('/') + 1;
+			const fileWithoutSrc = file.slice(srcIndex);
 
 			return {
 				functionName: camelCase(getFileNameFromPath(file)),
 				description: jsDocContent.description,
+				category: fileWithoutSrc.slice(0, fileWithoutSrc.indexOf('/')),
 				arguments,
 				returns
 			};
 		});
-
-		console.log(docs[1]);
 	});
 })();
