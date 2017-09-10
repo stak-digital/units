@@ -25,24 +25,26 @@ module.exports = {
 						'transform-runtime',
 						[
 							'transform-react-jsx', { pragma: 'h' }
-						]
+						],
+						'transform-object-rest-spread'
 					],
 					presets: [
 						'es2015'
 					]
 				}
+			},
+			{
+				test: /\.scss$/,
+				exclude: /node_modules/,
+				use: ExtractTextPlugin.extract({
+					fallback: 'style-loader',
+					use: ['css-loader', 'sass-loader']
+				})
 			}
 		]
 	},
 	plugins: [
-		{
-			test: /\.scss$/,
-			exclude: /node_modules/,
-			use: ExtractTextPlugin.extract({
-				fallback: 'style-loader',
-				use: ['css-loader', 'sass-loader']
-			})
-		}
+		new ExtractTextPlugin('style.css')
 	],
 	node: {
 		fs: 'empty'
