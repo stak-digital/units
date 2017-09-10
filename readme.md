@@ -57,46 +57,7 @@ const amountInMeters = inchesToMeters(amountInInches);
     // 0.762
 ```
 
-## API
-
-### Length
-
-Available Functions
-
-| Name | Category | Arguments | Description |
-| -------------- | ------ | --------------- | --------------------------------- |
-| inchesToMeters | length | inches <number> | Convert inches (in) to meters (m) | 
-| metersToInches | length | meters <number> | Convert meters (m) to inches (in) | 
-| metersToFeet | length | meters <number> | Convert meters (m) to feet (ft) | 
-| feetToMeters | length | feet <number> | Convert feet (ft) to meters (m) | 
-
-### Weight
-
-Available Functions
-
-| Name | Category | Arguments | Description |
-| -------------- | ------ | --------------- | --------------------------------- |
-| poundsToKilograms | weight | pounds <number> | Convert pounds (lb) to kilograms (kg) | 
-| kilogramsToPounds | weight | kilograms <number> | Convert kilograms (kg) to pounds (lb) | 
-| kilogramsToStones | weight | kilograms <number> | Convert kilograms (kg) to stones (st) | 
-| stonesToKilograms | weight | stones <number> | Convert stones (st) to kilograms (kg) | 
-| stonesToPounds | weight | stones <number> | Convert stones (st) to pounds (lb) | 
-| poundsToStones | weight | pounds <number> | Convert pounds (lb) to stones (st) |
- 
-### Time
-
-Available Functions
-
-| Name | Category | Arguments | Description |
-| -------------- | ------ | --------------- | --------------------------------- |
-| daysToMilliseconds | time | days <number> | Convert days to milliseconds | 
-| hoursToMilliseconds | time | hours <number> | Convert hours to milliseconds | 
-| millisecondsToDays | time | milliseconds <number> | Convert milliseconds to days | 
-| millisecondsToHours | time | milliseconds <number> | Convert milliseconds to hours | 
-| millisecondsToMinutes | time | milliseconds <number> | Convert milliseconds to minutes | 
-| millisecondsToSeconds | time | milliseconds <number> | Convert milliseconds to seconds | 
-| minutesToMilliseconds | time | minutes <number> | Convert minutes to milliseconds | 
-| secondsToMilliseconds | time | seconds <number> | Convert seconds to milliseconds | 
+For full API docs, visit [https://units.js.org](https://units.js.org)
 
 ## Changelog
 
