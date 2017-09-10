@@ -1,0 +1,18 @@
+body {
+  margin: 0; }
+
+.category {
+  margin-bottom: 40px; }
+
+.body__wrapper {
+  display: flex;
+  padding: 30px; }
+.sidebar {
+  width: 20%;
+  max-height: 100vh;
+  overflow: auto;
+  margin-right: 30px; }
+  .sidebar ul {
+    padding: 0; }
+    .sidebar ul ul {
+      padding-left: 20px; }
