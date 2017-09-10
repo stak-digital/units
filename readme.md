@@ -61,6 +61,10 @@ For full API docs, visit [https://units.js.org](https://units.js.org)
 
 ## Changelog
 
+### 1.2.5
+
+- Replace docs with link to js.org
+
 ### 1.2.4
 
 - Add dynamic docs generation
