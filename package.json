@@ -20,14 +20,24 @@
     "camelcase": "^4.1.0",
     "codecov": "^2.3.0",
     "comment-parser": "^0.3.2",
+    "extract-text-webpack-plugin": "^2.1.2",
     "expect": "^1.20.2",
     "glob": "^7.1.2",
-    "jest": "^20.0.4"
+    "jest": "^20.0.4",
+    "preact": "^8.2.5",
+    "uglify-es": "^3.0.28",
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.7.1",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.2"
   },
   "scripts": {
     "test": "NODE_ENV=test jest --coverage && codecov",
     "build": "node ./build.js",
-    "watch:tests": "NODE_ENV=test jest --watchAll"
+    "build:demo": "NODE_ENV=production webpack --config ./scripts/webpack.config.js --color --display-error-details && node ./node_modules/uglify-es/bin/uglifyjs ./docs/bundle.js -o ./docs/bundle.js",
+    "watch:tests": "NODE_ENV=test jest --watchAll",
+    "watch:demo": "webpack-dev-server --config ./scripts/webpack.config.js && webpack -w --config ./scripts/webpack.config.js --color --display-error-details",
+    "docs": "node ./scripts/docs.js && npm run build:demo"
   },
   "babel": {
     "env": {
@@ -43,5 +53,8 @@
         ]
       }
     }
+  },
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1"
   }
 }

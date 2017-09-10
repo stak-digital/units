@@ -53,5 +53,7 @@ function getFileNameFromPath(path) {
 				returns
 			};
 		});
+
+		fs.writeFileSync('docs/src/docs.json', JSON.stringify(docs));
 	});
 })();
