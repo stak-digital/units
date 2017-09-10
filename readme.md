@@ -100,6 +100,10 @@ Available Functions
 
 ## Changelog
 
+### 1.2.4
+
+- Add dynamic docs generation
+
 ### 1.2.3
 
 - Add documentation for time functions
