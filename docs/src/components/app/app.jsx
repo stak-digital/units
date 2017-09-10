@@ -1,7 +1,8 @@
 import { h, Component } from 'preact';
 import PropTypes from 'prop-types';
-import SideBar from './sidebar/sidebar.jsx';
-import {snakeCase} from '../utils/string';
+import SideBar from '../sidebar/sidebar.jsx';
+import {snakeCase} from '../../utils/string';
+import './app.scss';
 
 export default class App extends Component {
 	constructor(props) {
@@ -37,7 +38,7 @@ export default class App extends Component {
 					</h1>
 					{Object.entries(this.state.functionsByCategory).map(([key, value]) => {
 						return (
-							<div>
+							<div className="category">
 								<h2>
 									Category: {key}
 								</h2>
