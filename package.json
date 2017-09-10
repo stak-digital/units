@@ -6,6 +6,7 @@
   "author": "Stak Digital",
   "license": "MIT",
   "devDependencies": {
+    "allege": "^1.0.6",
     "babel-core": "^6.26.0",
     "babel-eslint": "7",
     "babel-jest": "^20.0.3",
@@ -16,7 +17,9 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-es2017": "^6.9.2",
     "babel-preset-stage-3": "^6.24.1",
+    "camelcase": "^4.1.0",
     "codecov": "^2.3.0",
+    "comment-parser": "^0.3.2",
     "expect": "^1.20.2",
     "glob": "^7.1.2",
     "jest": "^20.0.4"
