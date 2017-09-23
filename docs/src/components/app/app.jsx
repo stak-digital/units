@@ -60,7 +60,7 @@ export default class App extends Component {
 								</h2>
 								{value.map(functionInfo => {
 									return (
-										<div id={snakeCase(functionInfo.functionName)}>
+										<div className="function" id={snakeCase(functionInfo.functionName)}>
 											<h3>
 												Function: {functionInfo.functionName}
 											</h3>

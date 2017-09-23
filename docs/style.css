@@ -4,6 +4,9 @@ body {
 .category {
   margin-bottom: 40px; }
 
+.function {
+  margin-bottom: 30px; }
+
 .body__wrapper {
   display: flex;
   padding: 30px; }
