@@ -61,6 +61,12 @@ For full API docs, visit [https://units.js.org](https://units.js.org)
 
 ## Changelog
 
+### 1.3.0
+
+- Add poundsToTonnes function
+- Add tonnesToPounds function
+- Update docs site
+
 ### 1.2.5
 
 - Replace docs with link to js.org
