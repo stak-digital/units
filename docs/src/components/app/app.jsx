@@ -9,6 +9,7 @@ export default class App extends Component {
 		super(props);
 
 		this.state = {
+			searchValue: '',
 			functionsByCategory: props.functions.reduce((acc, curr) => {
 				if (!!acc[curr.category]) {
 					return {
@@ -26,12 +27,27 @@ export default class App extends Component {
 				}
 			}, {})
 		};
+
+		this.handleSearchInputChanged = this.handleSearchInputChanged.bind(this);
+	}
+
+	handleSearchInputChanged(event) {
+		const newValue = event.target.value;
+		console.log(newValue);
+
+		this.setState({
+			searchValue: newValue
+		});
 	}
 
 	render() {
 		return (
 			<div className="body__wrapper">
-				<SideBar functions={this.state.functionsByCategory}/>
+				<SideBar
+					functions={this.state.functionsByCategory}
+					searchTerm={this.state.searchValue}
+					onSearchInputChanged={this.handleSearchInputChanged}
+				/>
 				<div>
 					<h1>
 						Units
