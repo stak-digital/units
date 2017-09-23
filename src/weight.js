@@ -8,13 +8,16 @@ import poundsToTonnes from './weight/pounds-to-tonnes';
 // Stones
 import stonesToKilograms from './weight/stones-to-kilograms';
 import stonesToPounds from './weight/stones-to-pounds';
+// Tonnes
+import tonnesToPounds from './weight/tonnes-to-pounds';
 
 export default {
-	poundsToKilograms,
 	kilogramsToPounds,
 	kilogramsToStones,
-	stonesToKilograms,
+	poundsToKilograms,
 	poundsToStones,
 	poundsToTonnes,
-	stonesToPounds
+	stonesToKilograms,
+	stonesToPounds,
+	tonnesToPounds
 };
