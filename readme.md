@@ -1,4 +1,9 @@
-Units is a highly modular unit conversion library.
+# Units
+
+[![Build Status](https://travis-ci.org/stak-digital/units.svg?branch=master)](https://travis-ci.org/stak-digital/units)
+[![codecov](https://codecov.io/gh/stak-digital/units/branch/master/graph/badge.svg)](https://codecov.io/gh/stak-digital/units)
+
+A highly modular unit conversion library.
 
 The library is split into three tiers:
 
@@ -52,33 +57,47 @@ const amountInMeters = inchesToMeters(amountInInches);
     // 0.762
 ```
 
-## API
-
-### Length
-
-Available Functions
-
-| Name | Category | Arguments | Description |
-| -------------- | ------ | --------------- | --------------------------------- |
-| inchesToMeters | length | inches <number> | Convert inches (in) to meters (m) | 
-| metersToInches | length | meters <number> | Convert meters (m) to inches (in) | 
-| metersToFeet | length | meters <number> | Convert meters (m) to feet (ft) | 
-| feetToMeters | length | feet <number> | Convert feet (ft) to meters (m) | 
-
-### Weight
-
-Available Functions
-
-| Name | Category | Arguments | Description |
-| -------------- | ------ | --------------- | --------------------------------- |
-| poundsToKilograms | weight | pounds <number> | Convert pounds (lb) to kilograms (kg) | 
-| kilogramsToPounds | weight | kilograms <number> | Convert kilograms (kg) to pounds (lb) | 
-| kilogramsToStones | weight | kilograms <number> | Convert kilograms (kg) to stones (st) | 
-| stonesToKilograms | weight | stones <number> | Convert stones (st) to kilograms (kg) | 
-| stonesToPounds | weight | stones <number> | Convert stones (st) to pounds (lb) | 
-| poundsToStones | weight | pounds <number> | Convert pounds (lb) to stones (st) | 
+For full API docs, visit [https://units.js.org](https://units.js.org)
 
 ## Changelog
+
+### 1.3.0
+
+- Add poundsToTonnes function
+- Add tonnesToPounds function
+- Update docs site
+
+### 1.2.5
+
+- Replace docs with link to js.org
+
+### 1.2.4
+
+- Add dynamic docs generation
+
+### 1.2.3
+
+- Add documentation for time functions
+
+### 1.2.2
+
+- Add codecov integration
+
+### 1.2.1
+
+- Add travis-ci integration
+
+### 1.2.0
+
+- add time functions to time.js
+- add millisecondsToSeconds function 
+- add millisecondsToMinutes function
+- add millisecondsToHours function
+- add millisecondsToDays function
+- add secondsToMilliseconds function
+- add minutesToMilliseconds function
+- add hoursToMilliseconds function
+- add daysToMilliseconds function
 
 ### 1.1.0
 

@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+.category {
+  margin-bottom: 40px;
+}
+
+.function {
+  margin-bottom: 30px;
+}
+
+.body {
+  &__wrapper {
+    display: flex;
+    padding: 30px;
+  }
+}
