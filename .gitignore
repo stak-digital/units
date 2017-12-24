@@ -7,4 +7,5 @@ weight.js
 !src/length.js
 !src/weight.js
 coverage
+node_modules
 docs.json
