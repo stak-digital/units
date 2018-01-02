@@ -50,8 +50,156 @@ export default class App extends Component {
 				/>
 				<div>
 					<h1>
-						Units
+						Units by Stak Digital
 					</h1>
+					<p>
+						A highly modular unit conversion library.
+					</p>
+					<div>
+						<a href="https://travis-ci.org/stak-digital/units">
+							<img
+								src="https://travis-ci.org/stak-digital/units.svg?branch=master"
+								alt="Build Status"
+							/>
+						</a>
+						<a href="https://codecov.io/gh/stak-digital/units">
+							<img
+								src="https://codecov.io/gh/stak-digital/units/branch/master/graph/badge.svg"
+								alt="Code Coverage"
+							/>
+						</a>
+					</div>
+
+					<h2>
+						Getting Started
+					</h2>
+
+					<p>
+						<code>
+							yarn add @stak-digital/units
+						</code>
+					</p>
+					<p>
+						<code>
+							npm install --save @stak-digital/units
+						</code>
+					</p>
+
+					<h2>
+						Usage
+					</h2>
+
+					<p>
+						The library is split into three tiers:
+					</p>
+
+					<ul>
+						<li>
+							Library (index.js)
+						</li>
+						<li>
+							Conversion category (weight.js, length.js)
+						</li>
+						<li>
+							Individual function (poundsToKilograms.js)
+						</li>
+					</ul>
+
+					<h3>
+						Library Version
+					</h3>
+
+					<pre>
+						<div>
+							import units from '@stak-digital/units';
+						</div>
+
+						<div>
+							const amountInPounds = 60;
+						</div>
+						<div>
+							const amountInKilograms = units.poundsToKilograms(amountInPounds);
+						</div>
+						<div>
+							// 27.2155
+						</div>
+
+						<div>
+							const amountInInches = 30;
+						</div>
+						<div>
+							const amountInMeters = units.inchesToMeters(amountInInches);
+						</div>
+						<div>
+							// 0.762
+						</div>
+					</pre>
+
+					<h3>
+						Category Version
+					</h3>
+
+					<pre>
+						<div>
+							import convertWeight from '@stak-digital/units/weight';
+						</div>
+						<div>
+							import convertLength from '@stak-digital/units/length';
+						</div>
+
+						<div>
+							const amountInPounds = 60;
+						</div>
+						<div>
+							const amountInKilograms = convertWeight.poundsToKilograms(amountInPounds);
+						</div>
+						<div>
+							// 27.2155
+						</div>
+
+						<div>
+							const amountInInches = 30;
+						</div>
+						<div>
+							const amountInMeters = convertLength.inchesToMeters(amountInInches);
+						</div>
+						<div>
+							// 0.762
+						</div>
+					</pre>
+
+					<h3>
+						Individual Functions
+					</h3>
+
+					<pre>
+						<div>
+							import poundsToKilograms from '@stak-digital/units/pounds-to-kilograms';
+						</div>
+						<div>
+							import inchesToMeters from '@stak-digital/units/inches-to-meters';
+						</div>
+
+						<div>
+							const amountInPounds = 60;
+						</div>
+						<div>
+							const amountInKilograms = poundsToKilograms(amountInPounds);
+						</div>
+						<div>
+							// 27.2155
+						</div>
+
+						<div>
+							const amountInInches = 30;
+						</div>
+						<div>
+							const amountInMeters = inchesToMeters(amountInInches);
+						</div>
+						<div>
+							// 0.762
+						</div>
+					</pre>
 					{Object.entries(this.state.functionsByCategory).map(([key, value]) => {
 						return (
 							<div className="category">
