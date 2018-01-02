@@ -4,15 +4,12 @@ const allege = require('allege');
 const camelCase = require('camelcase');
 const commentParse = require('comment-parser');
 const getFileNameFromPath = require('@lukeboyle/get-filename-from-path');
-const itemsToIgnore = [
-	'src/length.js',
-	'src/index.js',
-	'src/weight.js',
-	'src/time.js'
-];
 
 (() => {
 	glob('src/**/*.js', {}, (err, files) => {
+		const itemsToIgnore = fs.readdirSync('./src').filter(file => {
+			return !fs.statSync(`./src/${file}`).isDirectory();
+		}).map(file => `src/${file}`);
 		const filesWithoutAggregateFiles = files.filter(file => allege(file).isNoneOf(...itemsToIgnore));
 		const docs = filesWithoutAggregateFiles.map(file => {
 			const fileContent = fs.readFileSync(file, {encoding: 'utf-8'});
@@ -36,7 +33,7 @@ const itemsToIgnore = [
 			const fileWithoutSrc = file.slice(srcIndex);
 
 			return {
-				functionName: camelCase(getFileNameFromPath(file)),
+				functionName: camelCase(getFileNameFromPath(file).replace('.js', '')),
 				description: jsDocContent.description,
 				category: fileWithoutSrc.slice(0, fileWithoutSrc.indexOf('/')),
 				arguments,
