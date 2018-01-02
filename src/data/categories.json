@@ -1,0 +1,31 @@
+[
+	{
+		"name": "temperature",
+		"units": [
+			{
+				"name": "kelvin",
+				"symbol": "K",
+				"conversionFormulae": {
+					"fahrenheit": "(n * (9/5)) - 459.67",
+					"celsius": "n - 273.15"
+				}
+			},
+			{
+				"name": "fahrenheit",
+				"symbol": "F",
+				"conversionFormulae": {
+					"kelvin": "(n + 459.67) * (5/9)",
+					"celsius": "(n - 32) * (5/9)"
+				}
+			},
+			{
+				"name": "celsius",
+				"symbol": "C",
+				"conversionFormulae": {
+					"fahrenheit": "(n * (9/5)) + 32",
+					"kelvin": "n + 273.15"
+				}
+			}
+		]
+	}
+]
