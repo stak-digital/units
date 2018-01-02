@@ -119,6 +119,10 @@ For full API docs, visit [https://units.js.org](https://units.js.org)
 
 ## Changelog
 
+### 1.4.1
+
+- Update docs site [https://units.js.org](https://units.js.org)
+
 ### 1.4.0
 
 - Add support for Kelvin, Fahrenheit and Celsius conversions
