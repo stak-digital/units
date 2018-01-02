@@ -5,25 +5,43 @@
 			{
 				"name": "kelvin",
 				"symbol": "K",
-				"conversionFormulae": {
-					"fahrenheit": "(n * (9/5)) - 459.67",
-					"celsius": "n - 273.15"
+				"convertTo": {
+					"fahrenheit": {
+						"formula": "(n * (9/5)) - 459.67",
+						"nEqualsOne": -457.87
+					},
+					"celsius": {
+						"formula": "n - 273.15",
+						"nEqualsOne": -272.15
+					}
 				}
 			},
 			{
 				"name": "fahrenheit",
 				"symbol": "F",
-				"conversionFormulae": {
-					"kelvin": "(n + 459.67) * (5/9)",
-					"celsius": "(n - 32) * (5/9)"
+				"convertTo": {
+					"kelvin": {
+						"formula": "(n + 459.67) * (5/9)",
+						"nEqualsOne": 255.9277777777778
+					},
+					"celsius": {
+						"formula": "(n - 32) * (5/9)",
+						"nEqualsOne": -17.22222222222222
+					}
 				}
 			},
 			{
 				"name": "celsius",
 				"symbol": "C",
-				"conversionFormulae": {
-					"fahrenheit": "(n * (9/5)) + 32",
-					"kelvin": "n + 273.15"
+				"convertTo": {
+					"fahrenheit": {
+						"formula": "(n * (9/5)) + 32",
+						"nEqualsOne": 33.8
+					},
+					"kelvin": {
+						"formula": "n + 273.15",
+						"nEqualsOne": 274.15
+					}
 				}
 			}
 		]
