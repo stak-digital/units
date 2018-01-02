@@ -1,7 +1,9 @@
 import { h, Component } from 'preact';
 import PropTypes from 'prop-types';
+import highlight from 'highlight.js';
 import SideBar from '../sidebar/sidebar.jsx';
-import {snakeCase} from '../../utils/string';
+import snakeCase from 'snake-case';
+import kebabCase from 'kebab-case';
 import './app.scss';
 
 export default class App extends Component {
@@ -40,9 +42,18 @@ export default class App extends Component {
 		});
 	}
 
+	componentDidMount() {
+		Array.from(this.root.querySelectorAll('pre code')).forEach(codeBlock => {
+			highlight.highlightBlock(codeBlock);
+		});
+	}
+
 	render() {
 		return (
-			<div className="body__wrapper">
+			<div
+				ref={el => this.root = el}
+				className="body__wrapper"
+			>
 				<SideBar
 					functions={this.state.functionsByCategory}
 					searchTerm={this.state.searchValue}
@@ -74,16 +85,16 @@ export default class App extends Component {
 						Getting Started
 					</h2>
 
-					<p>
-						<code>
+					<pre>
+						<code className="bash">
 							yarn add @stak-digital/units
 						</code>
-					</p>
-					<p>
-						<code>
+					</pre>
+					<pre>
+						<code className="bash">
 							npm install --save @stak-digital/units
 						</code>
-					</p>
+					</pre>
 
 					<h2>
 						Usage
@@ -110,29 +121,17 @@ export default class App extends Component {
 					</h3>
 
 					<pre>
-						<div>
-							import units from '@stak-digital/units';
-						</div>
-
-						<div>
-							const amountInPounds = 60;
-						</div>
-						<div>
-							const amountInKilograms = units.poundsToKilograms(amountInPounds);
-						</div>
-						<div>
-							// 27.2155
-						</div>
-
-						<div>
-							const amountInInches = 30;
-						</div>
-						<div>
-							const amountInMeters = units.inchesToMeters(amountInInches);
-						</div>
-						<div>
-							// 0.762
-						</div>
+						<code className="javascript">
+							import units from '@stak-digital/units';<br/>
+							<br/>
+							const amountInPounds = 60;<br/>
+							const amountInKilograms = units.poundsToKilograms(amountInPounds);<br/>
+							/* 27.2155 */<br/>
+							<br/>
+							const amountInInches = 30;<br/>
+							const amountInMeters = units.inchesToMeters(amountInInches);<br/>
+							/* 0.762 */
+						</code>
 					</pre>
 
 					<h3>
@@ -140,32 +139,18 @@ export default class App extends Component {
 					</h3>
 
 					<pre>
-						<div>
-							import convertWeight from '@stak-digital/units/weight';
-						</div>
-						<div>
-							import convertLength from '@stak-digital/units/length';
-						</div>
-
-						<div>
-							const amountInPounds = 60;
-						</div>
-						<div>
-							const amountInKilograms = convertWeight.poundsToKilograms(amountInPounds);
-						</div>
-						<div>
-							// 27.2155
-						</div>
-
-						<div>
-							const amountInInches = 30;
-						</div>
-						<div>
-							const amountInMeters = convertLength.inchesToMeters(amountInInches);
-						</div>
-						<div>
-							// 0.762
-						</div>
+						<code className="javascript">
+							import convertWeight from '@stak-digital/units/weight'; <br/>
+							import convertLength from '@stak-digital/units/length'; <br/>
+							<br/>
+							const amountInPounds = 60; <br/>
+							const amountInKilograms = convertWeight.poundsToKilograms(amountInPounds); <br/>
+							/* 27.2155 */<br/>
+							<br/>
+							const amountInInches = 30; <br/>
+							const amountInMeters = convertLength.inchesToMeters(amountInInches); <br/>
+							/* 0.762 */<br/>
+						</code>
 					</pre>
 
 					<h3>
@@ -173,32 +158,18 @@ export default class App extends Component {
 					</h3>
 
 					<pre>
-						<div>
-							import poundsToKilograms from '@stak-digital/units/pounds-to-kilograms';
-						</div>
-						<div>
-							import inchesToMeters from '@stak-digital/units/inches-to-meters';
-						</div>
-
-						<div>
-							const amountInPounds = 60;
-						</div>
-						<div>
-							const amountInKilograms = poundsToKilograms(amountInPounds);
-						</div>
-						<div>
-							// 27.2155
-						</div>
-
-						<div>
-							const amountInInches = 30;
-						</div>
-						<div>
-							const amountInMeters = inchesToMeters(amountInInches);
-						</div>
-						<div>
-							// 0.762
-						</div>
+						<code className="javascript">
+							import poundsToKilograms from '@stak-digital/units/pounds-to-kilograms'; <br/>
+							import inchesToMeters from '@stak-digital/units/inches-to-meters'; <br/>
+							<br/>
+							const amountInPounds = 60; <br/>
+							const amountInKilograms = poundsToKilograms(amountInPounds); <br/>
+							/* 27.2155 */<br/>
+							<br/>
+							const amountInInches = 30; <br/>
+							const amountInMeters = inchesToMeters(amountInInches); <br/>
+							/* 0.762 */
+						</code>
 					</pre>
 					{Object.entries(this.state.functionsByCategory).map(([key, value]) => {
 						return (
@@ -234,6 +205,16 @@ export default class App extends Component {
 													</div>
 												);
 											})}
+											<h4>
+												Usage
+											</h4>
+											<pre>
+												<code className="javascript">
+													import {functionInfo.functionName} from '@stak-digital/units/{kebabCase(functionInfo.functionName)}';<br/>
+													<br/>
+													{functionInfo.functionName}(10);
+												</code>
+											</pre>
 										</div>
 									);
 								})}
