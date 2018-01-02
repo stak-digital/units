@@ -73,9 +73,9 @@ For full API docs, visit [https://units.js.org](https://units.js.org)
 
 ## Temperature Category
 
-- [ ] Kelvin
-- [ ] Celsius
-- [ ] Fahrenheit
+- [x] Kelvin
+- [x] Celsius
+- [x] Fahrenheit
 
 ## Computer Data 
 - [ ] bit
@@ -102,6 +102,10 @@ For full API docs, visit [https://units.js.org](https://units.js.org)
 - [ ] pebibyte
 
 ## Changelog
+
+### 1.4.0
+
+- Add support for Kelvin, Fahrenheit and Celsius conversions
 
 ### 1.3.0
 
