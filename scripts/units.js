@@ -93,6 +93,37 @@ export default {${categoryFileFunctions.reduce((acc, curr) => {
 };
 `);
 
+	console.log(chalk.green(`Writing to ${categoryFileName} tests`));
+	fs.writeFileSync(`./tests/${category.name}.test.js`, `import ${category.name} from '../src/${category.name}';
+import expect from 'expect';
+
+test('it should exist', () => {
+
+	expect(
+		${category.name}
+	).toExist();
+
+});
+
+test('it should have all ${category.name} properties', () => {
+
+	${unitsWithFunctions.map(unit => {
+		return unit.functions.reduce((acc, curr) => {
+			return acc + `
+	expect(
+		${category.name}.${camelCase(curr.name)}
+	).toExist();
+	
+	expect(
+		${category.name}.${camelCase(curr.name)}
+	).toBeA(Function);
+		`;
+		}, '')
+	}).join('')}
+
+});
+`);
+
 	glob('./src/*.js', (err, files) => {
 		const filesWithoutIndex = files.filter(file => !file.includes('index.js'));
 
