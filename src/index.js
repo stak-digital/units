@@ -1,9 +1,12 @@
-import length from './length';
-import weight from './weight';
-import time from './time';
+
+import length from './length.js'
+import temperature from './temperature.js'
+import time from './time.js'
+import weight from './weight.js'
 
 export default {
 	...length,
-	...weight,
-	...time
+	...temperature,
+	...time,
+	...weight
 };
