@@ -1,10 +1,11 @@
 const categories = require('../src/data/categories.json');
 const fs = require('fs');
-const path = require('path');
-const mkdirp = require('mkdirp');
+const glob = require('glob');
 const titleCase = require('title-case');
 const camelCase = require('camel-case');
+const getFilenameFromPath = require('@lukeboyle/get-filename-from-path');
 const shell = require('shelljs');
+const chalk = require('chalk');
 
 /**
  * @typedef {Object} Category
@@ -50,12 +51,12 @@ export default function(${unit.name}) {
 			categoryFileFunctions.push(functionName);
 
 			shell.mkdir('-p', categoryPath);
-			console.log(`Writing ${unitFunction.name} to ${functionPath}`);
+			console.log(chalk.green(`Writing ${unitFunction.name} to ${functionPath}`));
 			fs.writeFileSync(functionPath, unitFunction.contents);
 		});
 	});
 
-	console.log(`Writing to ${categoryFileName}`);
+	console.log(chalk.green(`Writing to ${categoryFileName}`));
 	fs.writeFileSync(`./src/${categoryFileName}`, `
 ${categoryFileImports}
 export default {${categoryFileFunctions.reduce((acc, curr) => {
@@ -63,4 +64,23 @@ export default {${categoryFileFunctions.reduce((acc, curr) => {
 	}, '')}
 };
 	`);
+
+	glob('./src/*.js', (err, files) => {
+		const filesWithoutIndex = files.filter(file => !file.includes('index.js'));
+
+		const contents = `${filesWithoutIndex.reduce((acc, curr) => {
+	const filename = getFilenameFromPath(curr);
+	
+	return `${acc}\nimport ${filename.replace('.js', '')} from './${filename}'`;
+}, '')}
+
+export default {${filesWithoutIndex.reduce((acc, curr) => {
+	const filename = getFilenameFromPath(curr).replace('.js', '');
+
+	return `${acc}${acc !== '' ? ',' : ''}\n\t...${filename}`;
+}, '')}
+};
+		`;
+		fs.writeFileSync('./src/index.js', contents);
+	});
 });
