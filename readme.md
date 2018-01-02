@@ -59,6 +59,48 @@ const amountInMeters = inchesToMeters(amountInInches);
 
 For full API docs, visit [https://units.js.org](https://units.js.org)
 
+## Roadmap
+
+## Area Category
+- [ ] Square Metres
+- [ ] Acres
+- [ ] Hectares
+- [ ] Are
+- [ ] Cuerda
+- [ ] Square Yard
+- [ ] Square Foot
+- [ ] Square Inch
+
+## Temperature Category
+
+- [ ] Kelvin
+- [ ] Celsius
+- [ ] Fahrenheit
+
+## Computer Data 
+- [ ] bit
+- [ ] byte
+- [ ] kilobit
+- [ ] kibibit
+- [ ] kilobyte
+- [ ] kibibyte
+- [ ] megabit
+- [ ] mebibit
+- [ ] megabyte
+- [ ] mebibyte
+- [ ] gigabit
+- [ ] gibibit
+- [ ] gigabyte
+- [ ] gibibyte
+- [ ] terabit
+- [ ] tebibit
+- [ ] terabyte
+- [ ] tebibyte
+- [ ] petabit
+- [ ] pebibit
+- [ ] petabyte
+- [ ] pebibyte
+
 ## Changelog
 
 ### 1.3.0
