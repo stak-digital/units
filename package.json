@@ -6,6 +6,7 @@
 	"author": "Stak Digital",
 	"license": "MIT",
 	"devDependencies": {
+		"@lukeboyle/get-filename-from-path": "^1.0.3",
 		"allege": "^1.0.6",
 		"babel-core": "^6.26.0",
 		"babel-eslint": "7",
@@ -20,6 +21,7 @@
 		"babel-preset-stage-3": "^6.24.1",
 		"camel-case": "^3.0.0",
 		"camelcase": "^4.1.0",
+		"chalk": "^2.3.0",
 		"codecov": "^2.3.0",
 		"comment-parser": "^0.3.2",
 		"css-loader": "^0.28.7",
