@@ -66,6 +66,9 @@
 		}
 	},
 	"dependencies": {
-		"babel-plugin-transform-react-jsx": "^6.24.1"
+		"babel-plugin-transform-react-jsx": "^6.24.1",
+		"highlight.js": "^9.12.0",
+		"kebab-case": "^1.0.0",
+		"snake-case": "^2.1.0"
 	}
 }
