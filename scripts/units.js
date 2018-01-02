@@ -39,10 +39,14 @@ export default function(${unit.name}) {
 
 	unitsWithFunctions.forEach(unit => {
 		unit.functions.forEach(unitFunction => {
-			console.log(`../src/${category.name}`);
-			mkdirp(`./src/${category.name}`, err => {
+			const categoryPath = `./src/${category.name}`;
+
+			mkdirp(categoryPath, err => {
 				if (!err) {
-					fs.writeFileSync(`./src/${category.name}/${unitFunction.name}.js`, unitFunction.contents);
+					const functionPath = `${categoryPath}/${unitFunction.name}.js`;
+
+					console.log(`Writing ${unitFunction.name} to ${functionPath}`);
+					fs.writeFileSync(functionPath, unitFunction.contents);
 				} else {
 					console.error(err);
 				}
