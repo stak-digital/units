@@ -3,23 +3,13 @@ const glob = require('glob');
 const allege = require('allege');
 const camelCase = require('camelcase');
 const commentParse = require('comment-parser');
+const getFileNameFromPath = require('@lukeboyle/get-filename-from-path');
 const itemsToIgnore = [
 	'src/length.js',
 	'src/index.js',
 	'src/weight.js',
 	'src/time.js'
 ];
-
-function getFileNameFromPath(path) {
-	const pathWithoutDirectory = path.includes('/') ? path.slice(path.indexOf('/') + 1, path.length - 1) : path;
-	const pathWithoutExtensions = pathWithoutDirectory.includes('.js') ? pathWithoutDirectory.slice(0, pathWithoutDirectory.indexOf('.js')) : pathWithoutDirectory;
-
-	if (pathWithoutDirectory.includes('/')) {
-		return getFileNameFromPath(pathWithoutExtensions);
-	} else {
-		return pathWithoutExtensions;
-	}
-}
 
 (() => {
 	glob('src/**/*.js', {}, (err, files) => {
