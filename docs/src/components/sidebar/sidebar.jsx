@@ -21,6 +21,33 @@ export default function({functions, onSearchInputChanged, searchTerm}) {
 				Search
 				<input type="text" onKeyDown={onSearchInputChanged}/>
 			</label>
+			<ul>
+				<li>
+					<a href="#getting_started">
+						Getting started
+					</a>
+				</li>
+				<li>
+					<a href="#usage">
+						Usage
+					</a>
+				</li>
+				<li>
+					<a href="#usage_library_version">
+						Library version
+					</a>
+				</li>
+				<li>
+					<a href="#usage_category_version">
+						Category version
+					</a>
+				</li>
+				<li>
+					<a href="#usage_individual_functions">
+						Individual functions
+					</a>
+				</li>
+			</ul>
 			{Object.entries(functions).map(([key, value]) => {
 				return (
 					<ul>

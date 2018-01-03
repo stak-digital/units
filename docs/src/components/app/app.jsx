@@ -81,8 +81,8 @@ export default class App extends Component {
 						</a>
 					</div>
 
-					<h2>
-						Getting Started
+					<h2 id="getting_started">
+						Getting started
 					</h2>
 
 					<pre>
@@ -96,7 +96,7 @@ export default class App extends Component {
 						</code>
 					</pre>
 
-					<h2>
+					<h2 id="usage">
 						Usage
 					</h2>
 
@@ -116,8 +116,8 @@ export default class App extends Component {
 						</li>
 					</ul>
 
-					<h3>
-						Library Version
+					<h3 id="usage_library_version">
+						Library version
 					</h3>
 
 					<pre>
@@ -134,8 +134,8 @@ export default class App extends Component {
 						</code>
 					</pre>
 
-					<h3>
-						Category Version
+					<h3 id="usage_category_version">
+						Category version
 					</h3>
 
 					<pre>
@@ -153,8 +153,8 @@ export default class App extends Component {
 						</code>
 					</pre>
 
-					<h3>
-						Individual Functions
+					<h3 id="usage_individual_functions">
+						Individual functions
 					</h3>
 
 					<pre>
