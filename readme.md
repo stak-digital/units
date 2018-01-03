@@ -62,20 +62,15 @@ const amountInMeters = inchesToMeters(amountInInches);
     // 0.762
 ```
 
-## Roadmap
-
-### Temperature Category
-
-- Kelvin to Celsius
-- Celsius to Kelvin
-- Kelvin to Fahrenheit
-- Fahrenheit to Kelvin
-- Fahrenheit to Celsius
-- Celsius to Fahrenheit
-
 For full API docs, visit [https://units.js.org](https://units.js.org)
 
 ## Roadmap
+
+## General
+
+- [ ] Convert existing functions into json version
+- [ ] Add roadmap to docs site
+- [ ] Convert docs site to statically rendered (there's no reason for preact beyond search)
 
 ## Area Category
 - [ ] Square Metres
