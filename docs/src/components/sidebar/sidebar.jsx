@@ -1,5 +1,5 @@
 import { h } from 'preact';
-import {snakeCase} from '../../utils/string';
+import snakeCase from 'snake-case';
 import './sidebar.scss';
 
 function buildFunctionListItem(functionInfo) {
@@ -51,7 +51,9 @@ export default function({functions, onSearchInputChanged, searchTerm}) {
 			{Object.entries(functions).map(([key, value]) => {
 				return (
 					<ul>
-						{key}
+						<a href={`#${key}`}>
+							{key}
+						</a>
 						<ul>
 							{value.filter(functionInfo => {
 								return functionInfo.functionName.includes(searchTerm)

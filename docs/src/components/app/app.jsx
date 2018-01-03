@@ -174,7 +174,7 @@ export default class App extends Component {
 					{Object.entries(this.state.functionsByCategory).map(([key, value]) => {
 						return (
 							<div className="category">
-								<h2>
+								<h2 id={key}>
 									Category: {key}
 								</h2>
 								{value.map(functionInfo => {
