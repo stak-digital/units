@@ -42,6 +42,8 @@
 		"webpack-dev-server": "^2.7.1"
 	},
 	"scripts": {
+		"preversion": "npm run all",
+		"all": "npm run generate-functions && npm run build && npm run docs && npm run build:demo",
 		"test": "NODE_ENV=test jest --coverage && codecov",
 		"generate-functions": "node scripts/units.js",
 		"build": "node ./scripts/build.js",
