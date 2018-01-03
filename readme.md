@@ -157,6 +157,10 @@ and an nEqualsOne value which rep
 
 ## Changelog
 
+### 1.4.2
+
+- Update development documentation
+
 ### 1.4.1
 
 - Update docs site [https://units.js.org](https://units.js.org)
