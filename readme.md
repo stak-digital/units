@@ -64,6 +64,49 @@ const amountInMeters = inchesToMeters(amountInInches);
 
 For full API docs, visit [https://units.js.org](https://units.js.org)
 
+## Development
+
+## Adding a new unit
+
+- If the unit belongs to an existing category, add the unit to that category; otherwise
+	- Create a new category in `./src/data/categories.json`
+		- Each category should have a name and units array
+- If the unit exists already, add your desired conversion in the `convertTo` property; otherwise
+	- Create a new unit under the category with a name, symbol and convert to 
+	property. Each unit should have at least one convertTo
+	- Additionally, a convertTo needs to have a respective unit in the given 
+	category to allow interoperability between the units (see below)
+
+```json
+{
+	"units": [
+		{
+			"name": "fahrenheit",
+			"symbol": "F",
+			"convertTo": {
+				"celsius": {
+					"formula": "(n - 32) * (5/9)",
+					"nEqualsOne": -17.22222222222222
+				}
+			}
+		},
+		{
+			"name": "celsius",
+			"symbol": "C",
+			"convertTo": {
+				"fahrenheit": {
+					"formula": "(n * (9/5)) + 32",
+					"nEqualsOne": 33.8
+				}
+			}
+		}
+	]
+}
+``` 
+
+- Each conversion must have a formula property where the input unit is represented by `n`
+and an nEqualsOne value which rep
+
 ## Roadmap
 
 ## General
