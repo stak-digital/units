@@ -8,7 +8,9 @@
     .sidebar ul ul {
       padding-left: 20px; }
 body {
-  margin: 0; }
+  margin: 0;
+  max-width: 100vw;
+  padding: 0; }
 
 .category {
   margin-bottom: 40px; }
@@ -18,7 +20,7 @@ body {
 
 .body__wrapper {
   display: flex;
-  padding: 30px; }
+  padding: 20px; }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0; }
