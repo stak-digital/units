@@ -157,6 +157,13 @@ and an nEqualsOne value which rep
 
 ## Changelog
 
+### 1.5.0
+
+- Add support for square meters
+- Add support for square feet
+- Add support for square kilometers
+- Add support for hectares
+
 ### 1.4.3
 
 - Add styles to docs site and update internal links
