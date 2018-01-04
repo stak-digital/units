@@ -75,5 +75,30 @@
 				}
 			}
 		]
+	},
+	{
+		"name": "area",
+		"units": [
+			{
+				"name": "squareMeters",
+				"symbol": "m²",
+				"convertTo": {
+					"squareFeet": {
+						"formula": "n * 10.7639",
+						"nEqualsOne": 10.7639
+					}
+				}
+			},
+			{
+				"name": "squareFeet",
+				"symbol": "ft²",
+				"convertTo": {
+					"squareMeters": {
+						"formula": "n / 10.7639",
+						"nEqualsOne": 0.09290304
+					}
+				}
+			}
+		]
 	}
 ]

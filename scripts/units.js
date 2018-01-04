@@ -3,6 +3,7 @@ const fs = require('fs');
 const glob = require('glob');
 const titleCase = require('title-case');
 const camelCase = require('camel-case');
+const kebabCase = require('kebab-case');
 const getFilenameFromPath = require('@lukeboyle/get-filename-from-path');
 const shell = require('shelljs');
 const chalk = require('chalk');
@@ -21,7 +22,7 @@ categories.map(category => {
 		return {
 			...unit,
 			functions: Object.entries(unit.convertTo).map(([key, value]) => {
-				const functionAsKebabCase = `${unit.name}-to-${key}`;
+				const functionAsKebabCase = `${kebabCase(unit.name)}-to-${kebabCase(key)}`;
 				const functionName = camelCase(functionAsKebabCase);
 
 				return {
