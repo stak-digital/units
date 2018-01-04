@@ -120,6 +120,24 @@
 						"nEqualsOne": 0.00000929022668153103
 					}
 				}
+			},
+			{
+				"name": "squareKilometers",
+				"symbol": "km²",
+				"convertTo": {
+					"squareMeters": {
+						"formula": "n / 0.0000010000",
+						"nEqualsOne": 1000000
+					},
+					"squareFeet": {
+						"formula": "n * 10764000",
+						"nEqualsOne": 10764000
+					},
+					"hectares": {
+						"formula": "n / 0.010000",
+						"nEqualsOne": 100
+					}
+				}
 			}
 		]
 	}

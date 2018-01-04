@@ -116,13 +116,13 @@ and an nEqualsOne value which rep
 - [ ] Convert docs site to statically rendered (there's no reason for preact beyond search)
 
 ## Area Category
-- [ ] Square Metres
+- [x] Square Metres
 - [ ] Acres
-- [ ] Hectares
+- [x] Hectares
 - [ ] Are
 - [ ] Cuerda
 - [ ] Square Yard
-- [ ] Square Foot
+- [x] Square Foot
 - [ ] Square Inch
 
 ## Temperature Category
