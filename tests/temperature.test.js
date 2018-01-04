@@ -29,6 +29,14 @@ test('it should have all temperature properties', () => {
 	).toBeA(Function);
 		
 	expect(
+		temperature.kelvinToRankine
+	).toExist();
+	
+	expect(
+		temperature.kelvinToRankine
+	).toBeA(Function);
+		
+	expect(
 		temperature.fahrenheitToKelvin
 	).toExist();
 	
@@ -45,6 +53,14 @@ test('it should have all temperature properties', () => {
 	).toBeA(Function);
 		
 	expect(
+		temperature.fahrenheitToRankine
+	).toExist();
+	
+	expect(
+		temperature.fahrenheitToRankine
+	).toBeA(Function);
+		
+	expect(
 		temperature.celsiusToFahrenheit
 	).toExist();
 	
@@ -58,6 +74,38 @@ test('it should have all temperature properties', () => {
 	
 	expect(
 		temperature.celsiusToKelvin
+	).toBeA(Function);
+		
+	expect(
+		temperature.celsiusToRankine
+	).toExist();
+	
+	expect(
+		temperature.celsiusToRankine
+	).toBeA(Function);
+		
+	expect(
+		temperature.rankineToKelvin
+	).toExist();
+	
+	expect(
+		temperature.rankineToKelvin
+	).toBeA(Function);
+		
+	expect(
+		temperature.rankineToFahrenheit
+	).toExist();
+	
+	expect(
+		temperature.rankineToFahrenheit
+	).toBeA(Function);
+		
+	expect(
+		temperature.rankineToCelsius
+	).toExist();
+	
+	expect(
+		temperature.rankineToCelsius
 	).toBeA(Function);
 		
 
