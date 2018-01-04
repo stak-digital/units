@@ -86,6 +86,24 @@
 					"squareFeet": {
 						"formula": "n * 10.7639",
 						"nEqualsOne": 10.7639
+					},
+					"hectares": {
+						"formula": "n / 10000",
+						"nEqualsOne": 0.0001000000
+					}
+				}
+			},
+			{
+				"name": "hectares",
+				"symbol": "ha",
+				"convertTo": {
+					"squareMeters": {
+						"formula": "n * 10000",
+						"nEqualsOne": 10000
+					},
+					"squareFeet": {
+						"formula": "n * 107640",
+						"nEqualsOne": 107640
 					}
 				}
 			},
@@ -95,7 +113,11 @@
 				"convertTo": {
 					"squareMeters": {
 						"formula": "n / 10.7639",
-						"nEqualsOne": 0.09290304
+						"nEqualsOne": 0.09290312990644656
+					},
+					"hectares": {
+						"formula": "n / 107640",
+						"nEqualsOne": 0.00000929022668153103
 					}
 				}
 			}
