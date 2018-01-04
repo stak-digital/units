@@ -28,6 +28,18 @@ var _squareFeetToHectares = require('./area/square-feet-to-hectares.js');
 
 var _squareFeetToHectares2 = _interopRequireDefault(_squareFeetToHectares);
 
+var _squareKilometersToSquareMeters = require('./area/square-kilometers-to-square-meters.js');
+
+var _squareKilometersToSquareMeters2 = _interopRequireDefault(_squareKilometersToSquareMeters);
+
+var _squareKilometersToSquareFeet = require('./area/square-kilometers-to-square-feet.js');
+
+var _squareKilometersToSquareFeet2 = _interopRequireDefault(_squareKilometersToSquareFeet);
+
+var _squareKilometersToHectares = require('./area/square-kilometers-to-hectares.js');
+
+var _squareKilometersToHectares2 = _interopRequireDefault(_squareKilometersToHectares);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = {
@@ -36,5 +48,8 @@ exports.default = {
 	hectaresToSquareMeters: _hectaresToSquareMeters2.default,
 	hectaresToSquareFeet: _hectaresToSquareFeet2.default,
 	squareFeetToSquareMeters: _squareFeetToSquareMeters2.default,
-	squareFeetToHectares: _squareFeetToHectares2.default
+	squareFeetToHectares: _squareFeetToHectares2.default,
+	squareKilometersToSquareMeters: _squareKilometersToSquareMeters2.default,
+	squareKilometersToSquareFeet: _squareKilometersToSquareFeet2.default,
+	squareKilometersToHectares: _squareKilometersToHectares2.default
 };

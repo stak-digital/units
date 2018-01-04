@@ -60,5 +60,29 @@ test('it should have all area properties', () => {
 		area.squareFeetToHectares
 	).toBeA(Function);
 		
+	expect(
+		area.squareKilometersToSquareMeters
+	).toExist();
+	
+	expect(
+		area.squareKilometersToSquareMeters
+	).toBeA(Function);
+		
+	expect(
+		area.squareKilometersToSquareFeet
+	).toExist();
+	
+	expect(
+		area.squareKilometersToSquareFeet
+	).toBeA(Function);
+		
+	expect(
+		area.squareKilometersToHectares
+	).toExist();
+	
+	expect(
+		area.squareKilometersToHectares
+	).toBeA(Function);
+		
 
 });
