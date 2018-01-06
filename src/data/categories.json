@@ -90,6 +90,36 @@
 					"hectares": {
 						"formula": "n / 10000",
 						"nEqualsOne": 0.0001000000
+					},
+					"squareMetres": {
+						"formula": "n / 1000000",
+						"nEqualsOne": 0.000001000000
+					},
+					"acres": {
+						"formula": "n * 0.00024711",
+						"nEqualsOne": 0.0002471054
+					}
+				}
+			},
+			{
+				"name": "acres",
+				"symbol": "ac",
+				"convertTo": {
+					"squareMetres": {
+						"formula": "n / 0.00024711",
+						"nEqualsOne": 4046.856
+					},
+					"squareFeet": {
+						"formula": "n * 43560",
+						"nEqualsOne": 43560.00
+					},
+					"hectares": {
+						"formula": "n / 2.4711",
+						"nEqualsOne": 0.4046856
+					},
+					"squareKilometres": {
+						"formula": "n / 247.11",
+						"nEqualsOne": 0.004046856
 					}
 				}
 			},
@@ -97,6 +127,10 @@
 				"name": "hectares",
 				"symbol": "ha",
 				"convertTo": {
+					"acres": {
+						"formula": "n * 2.4711",
+						"nEqualsOne": 2.471054
+					},
 					"squareMeters": {
 						"formula": "n * 10000",
 						"nEqualsOne": 10000
@@ -104,6 +138,10 @@
 					"squareFeet": {
 						"formula": "n * 107640",
 						"nEqualsOne": 107640
+					},
+					"squareKilometers": {
+						"formula": "n / 100",
+						"nEqualsOne": 0.01000000
 					}
 				}
 			},
@@ -118,6 +156,14 @@
 					"hectares": {
 						"formula": "n / 107640",
 						"nEqualsOne": 0.00000929022668153103
+					},
+					"acres": {
+						"formula": "n * 0.000022957",
+						"nEqualsOne": 0.00002295684
+					},
+					"squareKilometers": {
+						"formula": "n / 10764000",
+						"nEqualsOne": 9.29022668153103e-8
 					}
 				}
 			},
@@ -136,6 +182,10 @@
 					"hectares": {
 						"formula": "n / 0.010000",
 						"nEqualsOne": 100
+					},
+					"acres": {
+						"formula": "n * 247.11",
+						"nEqualsOne": 247.1054
 					}
 				}
 			}
