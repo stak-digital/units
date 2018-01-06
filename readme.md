@@ -119,7 +119,7 @@ and an nEqualsOne value which rep
 - [x] Square Metres
 - [x] Acres
 - [x] Hectares
-- [ ] Square Yard
+- [x] Square Yard
 - [x] Square Foot
 
 ## Temperature Category
