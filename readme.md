@@ -122,10 +122,10 @@ For full API docs, visit [https://units.js.org](https://units.js.org)
 
 ## Development
 
-## Adding a new unit
+### Adding a new unit
 
 - If the unit belongs to an existing category, add the unit to that category; otherwise
-	- Create a new category in `./src/data/categories.json`
+	- Create a new category file in `./src/data/`
 		- Each category should have a name and units array
 - If the unit exists already, add your desired conversion in the `convertTo` property; otherwise
 	- Create a new unit under the category with a name, symbol and convert to 
