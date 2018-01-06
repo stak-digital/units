@@ -15,4 +15,4 @@ test('it should return the correct values', () => {
 		celsiusToKelvin(1)
 	).toBe(274.15);
 
-});	
+});

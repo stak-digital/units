@@ -15,4 +15,4 @@ test('it should return the correct values', () => {
 		celsiusToRankine(1)
 	).toBe(493.46999999999997);
 
-});	
+});

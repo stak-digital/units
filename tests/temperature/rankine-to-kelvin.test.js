@@ -15,4 +15,4 @@ test('it should return the correct values', () => {
 		rankineToKelvin(1)
 	).toBe(0.5555555555555556);
 
-});	
+});

@@ -15,4 +15,4 @@ test('it should return the correct values', () => {
 		fahrenheitToRankine(1)
 	).toBe(460.67);
 
-});	
+});

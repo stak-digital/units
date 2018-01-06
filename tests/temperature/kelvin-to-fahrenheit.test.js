@@ -15,4 +15,4 @@ test('it should return the correct values', () => {
 		kelvinToFahrenheit(1)
 	).toBe(-457.87);
 
-});	
+});

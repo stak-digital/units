@@ -15,4 +15,4 @@ test('it should return the correct values', () => {
 		squareFeetToHectares(1)
 	).toBe(0.00000929022668153103);
 
-});	
+});
