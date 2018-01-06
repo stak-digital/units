@@ -8,6 +8,9 @@ A highly modular unit conversion library.
 ## Getting Started
 
 `yarn add @stak-digital/units`
+
+- OR -
+
 `npm install --save @stak-digital/units`
 
 ## Usage
@@ -64,6 +67,59 @@ const amountInMeters = inchesToMeters(amountInInches);
 
 For full API docs, visit [https://units.js.org](https://units.js.org)
 
+## Supported Units
+
+### Area
+
+- Acres (ac)
+- Hectares (ha)
+- Square Feet (ft²)
+- Square Kilometers (km²)
+- Square Meters (m²)
+- Square Yards (yd²)
+
+### Temperature
+
+- Kelvin (K)
+- Celsius (˚C)
+- Fahrenheit (˚F)
+- Rankine (˚R)
+
+### Computer Data 
+- bit
+- byte
+- kilobit
+- kilobyte
+- megabit
+- megabyte
+- gigabit
+- gigabyte
+- terabit
+- terabyte
+- petabit
+- petabyte
+
+### Length
+
+- Feet (ft)
+- Meters (m)
+- Inches (in)
+
+### Time
+
+- Days **(Incomplete)**
+- Hours **(Incomplete)**
+- Minutes **(Incomplete)**
+- Seconds **(Incomplete)**
+- Milliseconds
+
+### Weight
+
+- Kilograms **(Incomplete)**
+- Pounds
+- Stones **(Incomplete)**
+- Tonnes **(Incomplete)**
+
 ## Development
 
 ## Adding a new unit
@@ -105,7 +161,7 @@ For full API docs, visit [https://units.js.org](https://units.js.org)
 ``` 
 
 - Each conversion must have a formula property where the input unit is represented by `n`
-and an nEqualsOne value which rep
+and an nEqualsOne value which represents the return value when an input of `1` is put through the formula.
 
 ## Roadmap
 
@@ -115,33 +171,6 @@ and an nEqualsOne value which rep
 - [ ] Add expand collapse to each category in the sub-nav and main of docs site
 - [ ] Add roadmap to docs site
 - [ ] Convert docs site to statically rendered (there's no reason for preact beyond search)
-
-## Area Category
-- [x] Square Metres
-- [x] Acres
-- [x] Hectares
-- [x] Square Yard
-- [x] Square Foot
-
-## Temperature Category
-
-- [x] Kelvin
-- [x] Celsius
-- [x] Fahrenheit
-
-## Computer Data 
-- [x] bit
-- [x] byte
-- [x] kilobit
-- [x] kilobyte
-- [x] megabit
-- [x] megabyte
-- [x] gigabit
-- [x] gigabyte
-- [x] terabit
-- [x] terabyte
-- [x] petabit
-- [x] petabyte
 
 ## Changelog
 
