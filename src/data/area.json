@@ -7,7 +7,7 @@
 			"convertTo": {
 				"hectares": {
 					"formula": "n / 2.4711",
-					"nEqualsOne": 0.4046856
+					"nEqualsOne": 0.40467807858848287
 				},
 				"squareFeet": {
 					"formula": "n * 43560",
@@ -15,15 +15,15 @@
 				},
 				"squareKilometers": {
 					"formula": "n / 247.11",
-					"nEqualsOne": 0.004046856
+					"nEqualsOne": 0.004046780785884828
 				},
 				"squareMeters": {
 					"formula": "n / 0.00024711",
-					"nEqualsOne": 4046.856
+					"nEqualsOne": 4046.7807858848287
 				},
 				"squareYards": {
 					"formula": "n / 0.00024711",
-					"nEqualsOne": 4046.856
+					"nEqualsOne": 4046.7807858848287
 				}
 			}
 		},
@@ -33,7 +33,7 @@
 			"convertTo": {
 				"acres": {
 					"formula": "n * 2.4711",
-					"nEqualsOne": 2.471054
+					"nEqualsOne": 2.4711
 				},
 				"squareFeet": {
 					"formula": "n * 107640",
@@ -49,7 +49,7 @@
 				},
 				"squareYards": {
 					"formula": "n * 11960",
-					"nEqualsOne": 11959.90
+					"nEqualsOne": 11960
 				}
 			}
 		},
@@ -59,7 +59,7 @@
 			"convertTo": {
 				"acres": {
 					"formula": "n * 0.000022957",
-					"nEqualsOne": 0.00002295684
+					"nEqualsOne": 0.000022957
 				},
 				"hectares": {
 					"formula": "n / 107640",
@@ -85,7 +85,7 @@
 			"convertTo": {
 				"acres": {
 					"formula": "n * 247.11",
-					"nEqualsOne": 247.1054
+					"nEqualsOne": 247.11
 				},
 				"hectares": {
 					"formula": "n / 0.010000",
@@ -101,7 +101,7 @@
 				},
 				"squareYards": {
 					"formula": "n * 1196000",
-					"nEqualsOne": 1195990
+					"nEqualsOne": 1196000
 				}
 			}
 		},
@@ -111,7 +111,7 @@
 			"convertTo": {
 				"acres": {
 					"formula": "n * 0.00024711",
-					"nEqualsOne": 0.0002471054
+					"nEqualsOne": 0.00024711
 				},
 				"hectares": {
 					"formula": "n / 10000",
@@ -127,7 +127,7 @@
 				},
 				"squareYards": {
 					"formula": "n * 1.1960",
-					"nEqualsOne": 1.195990
+					"nEqualsOne": 1.196
 				}
 			}
 		},
@@ -137,11 +137,11 @@
 			"convertTo": {
 				"acres": {
 					"formula": "n * 0.00020661",
-					"nEqualsOne": 0.0002066116
+					"nEqualsOne": 0.00020661
 				},
 				"hectares": {
 					"formula": "n / 11960",
-					"nEqualsOne": 0.00008361274
+					"nEqualsOne": 0.00008361204013377926
 				},
 				"squareFeet": {
 					"formula": "n * 9.0000",
@@ -149,11 +149,11 @@
 				},
 				"squareKilometers": {
 					"formula": "n / 1196000",
-					"nEqualsOne": 8.361274e-7
+					"nEqualsOne": 8.361204013377926e-7
 				},
 				"squareMeters": {
 					"formula": "n / 1.1960",
-					"nEqualsOne": 0.8361274
+					"nEqualsOne": 0.8361204013377926
 				}
 			}
 		}

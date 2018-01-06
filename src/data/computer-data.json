@@ -73,31 +73,31 @@
 				},
 				"megabyte": {
 					"formula": "n / 1000000",
-					"nEqualsOne": 1.25e-7
+					"nEqualsOne": 0.000001
 				},
 				"gigabit": {
 					"formula": "n / 125000000",
-					"nEqualsOne": 1e-9
+					"nEqualsOne": 8e-9
 				},
 				"gigabyte": {
 					"formula": "n / 1000000000",
-					"nEqualsOne": 1.25e-10
+					"nEqualsOne": 1e-9
 				},
 				"terabit": {
 					"formula": "n / 125000000000",
-					"nEqualsOne": 1e-12
+					"nEqualsOne": 8e-12
 				},
 				"terabyte": {
 					"formula": "n / 1000000000000",
-					"nEqualsOne": 1.25e-13
+					"nEqualsOne": 1e-12
 				},
 				"petabit": {
 					"formula": "n / 125000000000000",
-					"nEqualsOne": 1e-15
+					"nEqualsOne": 8e-15
 				},
 				"petabyte": {
 					"formula": "n / 1000000000000000",
-					"nEqualsOne": 1.25e-16
+					"nEqualsOne": 1e-15
 				}
 			}
 		},
@@ -206,48 +206,48 @@
 			"symbol": "Mbit",
 			"convertTo": {
 				"bit": {
+					"formula": "n * 1000000",
+					"nEqualsOne": 1000000
+				},
+				"byte": {
+					"formula": "n * 125000",
+					"nEqualsOne": 125000
+				},
+				"kilobit": {
 					"formula": "n * 1000",
 					"nEqualsOne": 1000
 				},
-				"byte": {
+				"kilobyte": {
 					"formula": "n * 125",
 					"nEqualsOne": 125
 				},
-				"kilobyte": {
+				"megabyte": {
 					"formula": "n / 8",
 					"nEqualsOne": 0.125
 				},
-				"megabit": {
+				"gigabit": {
 					"formula": "n / 1000",
 					"nEqualsOne": 1e-3
 				},
-				"megabyte": {
+				"gigabyte": {
 					"formula": "n / 8000",
 					"nEqualsOne": 1.25e-4
 				},
-				"gigabit": {
+				"terabit": {
 					"formula": "n / 1000000",
 					"nEqualsOne": 1e-6
 				},
-				"gigabyte": {
+				"terabyte": {
 					"formula": "n / 8000000",
 					"nEqualsOne": 1.25e-7
 				},
-				"terabit": {
+				"petabit": {
 					"formula": "n / 1000000000",
 					"nEqualsOne": 1e-9
 				},
-				"terabyte": {
+				"petabyte": {
 					"formula": "n / 8000000000",
 					"nEqualsOne": 1.25e-10
-				},
-				"petabit": {
-					"formula": "n / 1000000000000",
-					"nEqualsOne": 1e-12
-				},
-				"petabyte": {
-					"formula": "n / 8000000000000",
-					"nEqualsOne": 1.25e-13
 				}
 			}
 		},
@@ -269,7 +269,7 @@
 				},
 				"kilobyte": {
 					"formula": "n * 1000",
-					"nEqualsOne": 1000
+					"nEqualsOne": 1e3
 				},
 				"megabit": {
 					"formula": "n * 8",
@@ -306,48 +306,48 @@
 			"symbol": "Gbit",
 			"convertTo": {
 				"bit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1000000000",
+					"nEqualsOne": 1000000000
 				},
 				"byte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 125000000",
+					"nEqualsOne": 125000000
 				},
 				"kilobit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1000000",
+					"nEqualsOne": 1000000
 				},
 				"kilobyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 125000",
+					"nEqualsOne": 125000
 				},
 				"megabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1000",
+					"nEqualsOne": 1000
 				},
 				"megabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 125",
+					"nEqualsOne": 125
 				},
 				"gigabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n / 8",
+					"nEqualsOne": 0.125
 				},
 				"terabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n / 1000",
+					"nEqualsOne": 1e-3
 				},
 				"terabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n / 8000",
+					"nEqualsOne": 1.25e-4
 				},
 				"petabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n / 1000000",
+					"nEqualsOne": 1e-6
 				},
 				"petabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n / 8000000",
+					"nEqualsOne": 1.25e-7
 				}
 			}
 		},
@@ -356,48 +356,48 @@
 			"symbol": "GB",
 			"convertTo": {
 				"bit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 8000000000",
+					"nEqualsOne": 8000000000
 				},
 				"byte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1000000000",
+					"nEqualsOne": 1000000000
 				},
 				"kilobit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 8000000",
+					"nEqualsOne": 8000000
 				},
 				"kilobyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1000000",
+					"nEqualsOne": 1e6
 				},
 				"megabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 8000",
+					"nEqualsOne": 8000
 				},
 				"megabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1000",
+					"nEqualsOne": 1e3
 				},
 				"gigabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 8",
+					"nEqualsOne": 8
 				},
 				"terabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n / 125",
+					"nEqualsOne": 8e-3
 				},
 				"terabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n / 1000",
+					"nEqualsOne": 1e-3
 				},
 				"petabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n / 125000",
+					"nEqualsOne": 8e-6
 				},
 				"petabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n / 1000000",
+					"nEqualsOne": 1e-6
 				}
 			}
 		},
@@ -406,48 +406,48 @@
 			"symbol": "Tbit",
 			"convertTo": {
 				"bit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1000000000000",
+					"nEqualsOne": 1000000000000
 				},
 				"byte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 125000000000",
+					"nEqualsOne": 125000000000
 				},
 				"kilobit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1000000000",
+					"nEqualsOne": 1000000000
 				},
 				"kilobyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 125000000",
+					"nEqualsOne": 125000000
 				},
 				"megabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1000000",
+					"nEqualsOne": 1000000
 				},
 				"megabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 125000",
+					"nEqualsOne": 125000
 				},
 				"gigabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1000",
+					"nEqualsOne": 1e3
 				},
 				"gigabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 125",
+					"nEqualsOne": 125
 				},
 				"terabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n / 8",
+					"nEqualsOne": 0.125
 				},
 				"petabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n / 1000",
+					"nEqualsOne": 1e-3
 				},
 				"petabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n / 8000",
+					"nEqualsOne": 1.25e-4
 				}
 			}
 		},
@@ -456,48 +456,48 @@
 			"symbol": "TB",
 			"convertTo": {
 				"bit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 8000000000",
+					"nEqualsOne": 8000000000
 				},
 				"byte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1000000000000",
+					"nEqualsOne": 1000000000000
 				},
 				"kilobit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 8000000000",
+					"nEqualsOne": 8000000000
 				},
 				"kilobyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1000000000",
+					"nEqualsOne": 1e9
 				},
 				"megabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 8000000",
+					"nEqualsOne": 8000000
 				},
 				"megabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1e6",
+					"nEqualsOne": 1e6
 				},
 				"gigabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 8e3",
+					"nEqualsOne": 8e3
 				},
 				"gigabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1000",
+					"nEqualsOne": 1e3
 				},
 				"terabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 8",
+					"nEqualsOne": 8
 				},
 				"petabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n / 125",
+					"nEqualsOne": 8e-3
 				},
 				"petabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n / 1000",
+					"nEqualsOne": 1e-3
 				}
 			}
 		},
@@ -506,48 +506,48 @@
 			"symbol": "Pbit",
 			"convertTo": {
 				"bit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1e15",
+					"nEqualsOne": 1e15
 				},
 				"byte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1.25e14",
+					"nEqualsOne": 1.25e14
 				},
 				"kilobit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1e12",
+					"nEqualsOne": 1e12
 				},
 				"kilobyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1.25e11",
+					"nEqualsOne": 1.25e11
 				},
 				"megabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1e9",
+					"nEqualsOne": 1e9
 				},
 				"megabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1.25e8",
+					"nEqualsOne": 1.25e8
 				},
 				"gigabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1e6",
+					"nEqualsOne": 1e6
 				},
 				"gigabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1.25e5",
+					"nEqualsOne": 1.25e5
 				},
 				"terabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1000",
+					"nEqualsOne": 1e3
 				},
 				"terabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1.25e2",
+					"nEqualsOne": 1.25e2
 				},
 				"petabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n / 8",
+					"nEqualsOne": 0.125
 				}
 			}
 		},
@@ -556,48 +556,48 @@
 			"symbol": "PB",
 			"convertTo": {
 				"bit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 8e15",
+					"nEqualsOne": 8e15
 				},
 				"byte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1e15",
+					"nEqualsOne": 1e15
 				},
 				"kilobit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 8e12",
+					"nEqualsOne": 8e12
 				},
 				"kilobyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1e12",
+					"nEqualsOne": 1e12
 				},
 				"megabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1e9",
+					"nEqualsOne": 1e9
 				},
 				"megabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1e9",
+					"nEqualsOne": 1e9
 				},
 				"gigabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 8e6",
+					"nEqualsOne": 8e6
 				},
 				"gigabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1e6",
+					"nEqualsOne": 1e6
 				},
 				"terabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 8e3",
+					"nEqualsOne": 8e3
 				},
 				"terabyte": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 1e3",
+					"nEqualsOne": 1e3
 				},
 				"petabit": {
-					"formula": "",
-					"nEqualsOne": 1
+					"formula": "n * 8",
+					"nEqualsOne": 8
 				}
 			}
 		}
