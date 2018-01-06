@@ -168,6 +168,32 @@
 				}
 			},
 			{
+				"name": "squareYards",
+				"symbol": "yd²",
+				"convertTo": {
+					"squareMeters": {
+						"formula": "n / 1.1960",
+						"nEqualsOne": 0.8361274
+					},
+					"acres": {
+						"formula": "n * 0.00020661",
+						"nEqualsOne": 0.0002066116
+					},
+					"hectares": {
+						"formula": "n / 11960",
+						"nEqualsOne": 0.00008361274
+					},
+					"squareFeet": {
+						"formula": "n * 9.0000",
+						"nEqualsOne": 9.000000
+					},
+					"squareKilometers": {
+						"formula": "n / 1196000",
+						"nEqualsOne": 8.361274e-7
+					}
+				}
+			},
+			{
 				"name": "squareKilometers",
 				"symbol": "km²",
 				"convertTo": {
