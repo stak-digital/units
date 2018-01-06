@@ -13,6 +13,6 @@ test('it should return the correct values', () => {
 
 	expect(
 		squareYardsToHectares(1)
-	).toBe(0.00008361274);
+	).toBe(0.00008361204013377926);
 
 });

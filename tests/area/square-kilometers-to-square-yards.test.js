@@ -13,6 +13,6 @@ test('it should return the correct values', () => {
 
 	expect(
 		squareKilometersToSquareYards(1)
-	).toBe(1195990);
+	).toBe(1196000);
 
 });

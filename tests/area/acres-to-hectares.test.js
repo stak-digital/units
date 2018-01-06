@@ -13,6 +13,6 @@ test('it should return the correct values', () => {
 
 	expect(
 		acresToHectares(1)
-	).toBe(0.4046856);
+	).toBe(0.40467807858848287);
 
 });
