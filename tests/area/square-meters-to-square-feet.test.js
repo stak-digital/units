@@ -15,4 +15,4 @@ test('it should return the correct values', () => {
 		squareMetersToSquareFeet(1)
 	).toBe(10.7639);
 
-});	
+});

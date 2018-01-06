@@ -15,4 +15,4 @@ test('it should return the correct values', () => {
 		hectaresToSquareFeet(1)
 	).toBe(107640);
 
-});	
+});

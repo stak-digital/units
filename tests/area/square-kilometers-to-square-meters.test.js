@@ -15,4 +15,4 @@ test('it should return the correct values', () => {
 		squareKilometersToSquareMeters(1)
 	).toBe(1000000);
 
-});	
+});
