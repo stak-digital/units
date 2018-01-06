@@ -15,4 +15,4 @@ test('it should return the correct values', () => {
 		rankineToFahrenheit(1)
 	).toBe(-458.67);
 
-});	
+});

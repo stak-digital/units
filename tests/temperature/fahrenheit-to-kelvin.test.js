@@ -15,4 +15,4 @@ test('it should return the correct values', () => {
 		fahrenheitToKelvin(1)
 	).toBe(255.9277777777778);
 
-});	
+});

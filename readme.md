@@ -117,13 +117,10 @@ and an nEqualsOne value which rep
 
 ## Area Category
 - [x] Square Metres
-- [ ] Acres
+- [x] Acres
 - [x] Hectares
-- [ ] Are
-- [ ] Cuerda
-- [ ] Square Yard
+- [x] Square Yard
 - [x] Square Foot
-- [ ] Square Inch
 
 ## Temperature Category
 
@@ -132,30 +129,24 @@ and an nEqualsOne value which rep
 - [x] Fahrenheit
 
 ## Computer Data 
-- [ ] bit
-- [ ] byte
-- [ ] kilobit
-- [ ] kibibit
-- [ ] kilobyte
-- [ ] kibibyte
-- [ ] megabit
-- [ ] mebibit
-- [ ] megabyte
-- [ ] mebibyte
-- [ ] gigabit
-- [ ] gibibit
-- [ ] gigabyte
-- [ ] gibibyte
-- [ ] terabit
-- [ ] tebibit
-- [ ] terabyte
-- [ ] tebibyte
-- [ ] petabit
-- [ ] pebibit
-- [ ] petabyte
-- [ ] pebibyte
+- [x] bit
+- [x] byte
+- [x] kilobit
+- [x] kilobyte
+- [x] megabit
+- [x] megabyte
+- [x] gigabit
+- [x] gigabyte
+- [x] terabit
+- [x] terabyte
+- [x] petabit
+- [x] petabyte
 
 ## Changelog
+
+### 1.6.0
+
+- Add support for major computer data units
 
 ### 1.5.0
 

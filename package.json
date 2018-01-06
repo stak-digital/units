@@ -1,6 +1,6 @@
 {
 	"name": "@stak-digital/units",
-	"version": "1.5.0",
+	"version": "1.6.0",
 	"main": "index.js",
 	"repository": "https://3stacks@github.com/stak-digital/units.git",
 	"author": "Stak Digital",
@@ -47,7 +47,7 @@
 		"snake-case": "^2.1.0"
 	},
 	"scripts": {
-		"preversion": "npm run all",
+		"preversion": "npm run all && npm test",
 		"all": "npm run generate-functions && npm run build && npm run docs && npm run build:demo",
 		"test": "NODE_ENV=test jest --coverage && codecov",
 		"generate-functions": "node scripts/units.js",

@@ -15,4 +15,4 @@ test('it should return the correct values', () => {
 		celsiusToFahrenheit(1)
 	).toBe(33.8);
 
-});	
+});

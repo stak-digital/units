@@ -15,4 +15,4 @@ test('it should return the correct values', () => {
 		rankineToCelsius(1)
 	).toBe(-272.5944444444445);
 
-});	
+});

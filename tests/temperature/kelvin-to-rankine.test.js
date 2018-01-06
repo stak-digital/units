@@ -15,4 +15,4 @@ test('it should return the correct values', () => {
 		kelvinToRankine(1)
 	).toBe(1.8);
 
-});	
+});
