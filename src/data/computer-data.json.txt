@@ -1,0 +1,1989 @@
+{
+	"name": "computer-data",
+	"units": [
+		{
+			"name": "bit",
+			"symbol": "b",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "byte",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "kilobit",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "kibibit",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "kilobyte",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "kibibyte",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "megabit",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "mebibit",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "megabyte",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "mebibyte",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "gigabit",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "gibibit",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "gigabyte",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "gibibyte",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "terabit",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "tebibit",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "terabyte",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "tebibyte",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "petabit",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "pebibit",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "petabyte",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		},
+		{
+			"name": "pebibyte",
+			"symbol": "",
+			"convertTo": {
+				"bit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"byte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kilobyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"kibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"megabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"mebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gigabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"gibibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"terabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"tebibyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"pebibit": {
+					"formula": "",
+					"nEqualsOne": 1
+				},
+				"petabyte": {
+					"formula": "",
+					"nEqualsOne": 1
+				}
+			}
+		}
+	]
+}

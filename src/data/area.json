@@ -1,0 +1,161 @@
+{
+	"name": "area",
+	"units": [
+		{
+			"name": "acres",
+			"symbol": "ac",
+			"convertTo": {
+				"hectares": {
+					"formula": "n / 2.4711",
+					"nEqualsOne": 0.4046856
+				},
+				"squareFeet": {
+					"formula": "n * 43560",
+					"nEqualsOne": 43560.00
+				},
+				"squareKilometers": {
+					"formula": "n / 247.11",
+					"nEqualsOne": 0.004046856
+				},
+				"squareMeters": {
+					"formula": "n / 0.00024711",
+					"nEqualsOne": 4046.856
+				},
+				"squareYards": {
+					"formula": "n / 0.00024711",
+					"nEqualsOne": 4046.856
+				}
+			}
+		},
+		{
+			"name": "hectares",
+			"symbol": "ha",
+			"convertTo": {
+				"acres": {
+					"formula": "n * 2.4711",
+					"nEqualsOne": 2.471054
+				},
+				"squareFeet": {
+					"formula": "n * 107640",
+					"nEqualsOne": 107640
+				},
+				"squareKilometers": {
+					"formula": "n / 100",
+					"nEqualsOne": 0.01000000
+				},
+				"squareMeters": {
+					"formula": "n * 10000",
+					"nEqualsOne": 10000
+				},
+				"squareYards": {
+					"formula": "n * 11960",
+					"nEqualsOne": 11959.90
+				}
+			}
+		},
+		{
+			"name": "squareFeet",
+			"symbol": "ft²",
+			"convertTo": {
+				"acres": {
+					"formula": "n * 0.000022957",
+					"nEqualsOne": 0.00002295684
+				},
+				"hectares": {
+					"formula": "n / 107640",
+					"nEqualsOne": 0.00000929022668153103
+				},
+				"squareKilometers": {
+					"formula": "n / 10764000",
+					"nEqualsOne": 9.29022668153103e-8
+				},
+				"squareMeters": {
+					"formula": "n / 10.7639",
+					"nEqualsOne": 0.09290312990644656
+				},
+				"squareYards": {
+					"formula": "n * 0.1111111",
+					"nEqualsOne": 0.1111111
+				}
+			}
+		},
+		{
+			"name": "squareKilometers",
+			"symbol": "km²",
+			"convertTo": {
+				"acres": {
+					"formula": "n * 247.11",
+					"nEqualsOne": 247.1054
+				},
+				"hectares": {
+					"formula": "n / 0.010000",
+					"nEqualsOne": 100
+				},
+				"squareFeet": {
+					"formula": "n * 10764000",
+					"nEqualsOne": 10764000
+				},
+				"squareMeters": {
+					"formula": "n / 0.0000010000",
+					"nEqualsOne": 1000000
+				},
+				"squareYards": {
+					"formula": "n * 1196000",
+					"nEqualsOne": 1195990
+				}
+			}
+		},
+		{
+			"name": "squareMeters",
+			"symbol": "m²",
+			"convertTo": {
+				"acres": {
+					"formula": "n * 0.00024711",
+					"nEqualsOne": 0.0002471054
+				},
+				"hectares": {
+					"formula": "n / 10000",
+					"nEqualsOne": 0.0001000000
+				},
+				"squareFeet": {
+					"formula": "n * 10.7639",
+					"nEqualsOne": 10.7639
+				},
+				"squareKilometers": {
+					"formula": "n / 1000000",
+					"nEqualsOne": 0.000001000000
+				},
+				"squareYards": {
+					"formula": "n * 1.1960",
+					"nEqualsOne": 1.195990
+				}
+			}
+		},
+		{
+			"name": "squareYards",
+			"symbol": "yd²",
+			"convertTo": {
+				"acres": {
+					"formula": "n * 0.00020661",
+					"nEqualsOne": 0.0002066116
+				},
+				"hectares": {
+					"formula": "n / 11960",
+					"nEqualsOne": 0.00008361274
+				},
+				"squareFeet": {
+					"formula": "n * 9.0000",
+					"nEqualsOne": 9.000000
+				},
+				"squareKilometers": {
+					"formula": "n / 1196000",
+					"nEqualsOne": 8.361274e-7
+				},
+				"squareMeters": {
+					"formula": "n / 1.1960",
+					"nEqualsOne": 0.8361274
+				}
+			}
+		}
+	]
+}
