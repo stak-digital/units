@@ -117,13 +117,10 @@ and an nEqualsOne value which rep
 
 ## Area Category
 - [x] Square Metres
-- [ ] Acres
+- [x] Acres
 - [x] Hectares
-- [ ] Are
-- [ ] Cuerda
 - [ ] Square Yard
 - [x] Square Foot
-- [ ] Square Inch
 
 ## Temperature Category
 
