@@ -1,75 +1,213 @@
 {
-	"name": "weight",
+	"name": "time",
 	"units": [
 		{
-			"name": "kilograms",
-			"symbol": "kg",
+			"name": "nanoseconds",
+			"symbol": "ns",
 			"convertTo": {
-				"pounds": {
-					"formula": "n * 2.20462",
-					"nEqualsOne": 2.20462
+				"microseconds": {
+					"formula": "n / 1e+3",
+					"nEqualsOne": 1e-3
 				},
-				"stones": {
-					"formula": "n * 0.157473",
-					"nEqualsOne": 0.157473
+				"milliseconds": {
+					"formula": "n / 1e+6",
+					"nEqualsOne": 1e-6
 				},
-				"tonnes": {
+				"seconds": {
+					"formula": "n / 1e+9",
+					"nEqualsOne": 1e-9
+				},
+				"minutes": {
+					"formula": "n / 1e+9 / 60",
+					"nEqualsOne": 1.6666666666666667e-11
+				},
+				"hours": {
+					"formula": "n / 1e+9 / 60 / 60",
+					"nEqualsOne": 2.777777777777778e-13
+				},
+				"days": {
+					"formula": "n / 1e+9 / 60 / 60 / 24",
+					"nEqualsOne": 1.1574074074074075e-14
+				}
+			}
+		},
+		{
+			"name": "microseconds",
+			"symbol": "µs",
+			"convertTo": {
+				"nanoseconds": {
+					"formula": "n * 1e+3",
+					"nEqualsOne": 1e+3
+				},
+				"milliseconds": {
+					"formula": "n / 1e+3",
+					"nEqualsOne": 1e-3
+				},
+				"seconds": {
+					"formula": "n / 1e+6",
+					"nEqualsOne": 1e-6
+				},
+				"minutes": {
+					"formula": "n / 1000 / 1000 / 60",
+					"nEqualsOne": 1.6666666666666667e-8
+				},
+				"hours": {
+					"formula": "n / 1000 / 1000 / 60 / 60",
+					"nEqualsOne": 2.7777777777777777e-10
+				},
+				"days": {
+					"formula": "n / 1000 / 1000 / 60 / 60 / 24",
+					"nEqualsOne": 1.1574074074074074e-11
+				}
+			}
+		},
+		{
+			"name": "milliseconds",
+			"symbol": "ms",
+			"convertTo": {
+				"nanoseconds": {
+					"formula": "n * 1e+6",
+					"nEqualsOne": 1e+6
+				},
+				"microseconds": {
+					"formula": "n * 1e+3",
+					"nEqualsOne": 1e+3
+				},
+				"seconds": {
 					"formula": "n / 1000",
 					"nEqualsOne": 0.001
+				},
+				"minutes": {
+					"formula": "n / 1000 / 60",
+					"nEqualsOne": 1.6666666666666667e-5
+				},
+				"hours": {
+					"formula": "n / 1000 / 60 / 60",
+					"nEqualsOne": 2.777777777777778e-7
+				},
+				"days": {
+					"formula": "n / 1000 / 60 / 60 / 24",
+					"nEqualsOne": 1.1574074074074076e-8
 				}
 			}
 		},
 		{
-			"name": "pounds",
-			"symbol": "lb",
+			"name": "seconds",
+			"symbol": "s",
 			"convertTo": {
-				"kilograms": {
-					"formula": "n * 0.453592",
-					"nEqualsOne": 0.453592
+				"nanoseconds": {
+					"formula": "n * 1e+9",
+					"nEqualsOne": 1e+9
 				},
-				"stones": {
-					"formula": "n / 14",
-					"nEqualsOne": 0.07142857142857142
+				"microseconds": {
+					"formula": "n * 1e+6",
+					"nEqualsOne": 1e+6
 				},
-				"tonnes": {
-					"formula": "n * 0.00045359237",
-					"nEqualsOne": 0.00045359237
-				}
-			}
-		},
-		{
-			"name": "stones",
-			"symbol": "st",
-			"convertTo": {
-				"kilograms": {
-					"formula": "n * 6.35029",
-					"nEqualsOne": 6.35029
-				},
-				"pounds": {
-					"formula": "n * 14",
-					"nEqualsOne": 14
-				},
-				"tonnes": {
-					"formula": "n * 0.00635029",
-					"nEqualsOne": 0.00635029
-				}
-			}
-		},
-		{
-			"name": "tonnes",
-			"symbol": "t",
-			"convertTo": {
-				"kilograms": {
+				"milliseconds": {
 					"formula": "n * 1000",
 					"nEqualsOne": 1000
 				},
-				"pounds": {
-					"formula": "n * 2204.6215",
-					"nEqualsOne": 2204.6215
+				"minutes": {
+					"formula": "n / 60",
+					"nEqualsOne": 1.6666666666666666e-2
 				},
-				"stones": {
-					"formula": "n * 157.47297",
-					"nEqualsOne": 157.47297
+				"hours": {
+					"formula": "n / 60 / 60",
+					"nEqualsOne": 2.777777777777778e-4
+				},
+				"days": {
+					"formula": "n / 60 / 60 / 24",
+					"nEqualsOne": 1.1574074074074073e-5
+				}
+			}
+		},
+		{
+			"name": "minutes",
+			"symbol": "min",
+			"convertTo": {
+				"nanoseconds": {
+					"formula": "n * 6e+10",
+					"nEqualsOne": 6e+10
+				},
+				"microseconds": {
+					"formula": "n * 6e+7",
+					"nEqualsOne": 6e+7
+				},
+				"milliseconds": {
+					"formula": "n * 6e+4",
+					"nEqualsOne": 6e+4
+				},
+				"seconds": {
+					"formula": "n * 60",
+					"nEqualsOne": 60
+				},
+				"hours": {
+					"formula": "n / 60",
+					"nEqualsOne": 1.6666666666666666e-2
+				},
+				"days": {
+					"formula": "n / 60 / 24",
+					"nEqualsOne": 0.0006944444444444445
+				}
+			}
+		},
+		{
+			"name": "hours",
+			"symbol": "h",
+			"convertTo": {
+				"nanoseconds": {
+					"formula": "n * 3.6e+12",
+					"nEqualsOne": 3.6e+12
+				},
+				"microseconds": {
+					"formula": "n * 3.6e+9",
+					"nEqualsOne": 3.6e+9
+				},
+				"milliseconds": {
+					"formula": "n * 3.6e+6",
+					"nEqualsOne": 3.6e+6
+				},
+				"seconds": {
+					"formula": "n * 3600",
+					"nEqualsOne": 3600
+				},
+				"minutes": {
+					"formula": "n * 60",
+					"nEqualsOne": 60
+				},
+				"days": {
+					"formula": "n / 24",
+					"nEqualsOne": 0.041666666666666664
+				}
+			}
+		},
+		{
+			"name": "days",
+			"symbol": "days",
+			"convertTo": {
+				"nanoseconds": {
+					"formula": "n * 8.64e+13",
+					"nEqualsOne": 8.64e+13
+				},
+				"microseconds": {
+					"formula": "n * 8.64e+10",
+					"nEqualsOne": 8.64e+10
+				},
+				"milliseconds": {
+					"formula": "n * 8.64e+7",
+					"nEqualsOne": 8.64e+7
+				},
+				"seconds": {
+					"formula": "n * 86400",
+					"nEqualsOne": 86400
+				},
+				"minutes": {
+					"formula": "n * 1440",
+					"nEqualsOne": 1440
+				},
+				"hours": {
+					"formula": "n * 24",
+					"nEqualsOne": 24
 				}
 			}
 		}
