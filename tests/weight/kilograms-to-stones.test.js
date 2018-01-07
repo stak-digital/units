@@ -11,22 +11,8 @@ test('it should exist', () => {
 
 test('it should return the correct values', () => {
 
-	const oneKilogramToStones = 0.157473;
-
 	expect(
 		kilogramsToStones(1)
-	).toBe(oneKilogramToStones);
-
-	expect(
-		kilogramsToStones(2)
-	).toBe(oneKilogramToStones * 2);
-
-	expect(
-		kilogramsToStones(5)
-	).toBe(oneKilogramToStones * 5);
-
-	expect(
-		kilogramsToStones(10)
-	).toBe(oneKilogramToStones * 10);
+	).toBe(0.157473);
 
 });

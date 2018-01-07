@@ -1,10 +1,8 @@
-import hoursToMilliseconds from './hours-to-milliseconds';
-
 /**
- * daysToMilliseconds - Takes days and returns the millisecond representation
+ * Converts Days (days) to Milliseconds (ms)
  * @param {number} days
- * @returns {number} milliseconds
+ * @returns {number}
  */
 export default function(days) {
-	return hoursToMilliseconds(days * 24);
+	return days * 8.64e+7;
 }

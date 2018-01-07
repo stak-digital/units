@@ -1,10 +1,8 @@
-import secondsToMilliseconds from './seconds-to-milliseconds';
-
 /**
- * minutesToMilliseconds - Takes minutes and returns the millisecond representation
+ * Converts Minutes (min) to Milliseconds (ms)
  * @param {number} minutes
- * @returns {number} milliseconds
+ * @returns {number}
  */
-export default function (minutes) {
-	return secondsToMilliseconds(minutes * 60);
+export default function(minutes) {
+	return minutes * 6e+4;
 }

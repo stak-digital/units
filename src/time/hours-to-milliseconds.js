@@ -1,10 +1,8 @@
-import minutesToMilliseconds from './minutes-to-milliseconds';
-
 /**
- * hoursToMilliseconds - Takes hours and returns the millisecond representation
+ * Converts Hours (h) to Milliseconds (ms)
  * @param {number} hours
- * @returns {number} milliseconds
+ * @returns {number}
  */
-export default function (hours) {
-	return minutesToMilliseconds(hours * 60);
+export default function(hours) {
+	return hours * 3.6e+6;
 }

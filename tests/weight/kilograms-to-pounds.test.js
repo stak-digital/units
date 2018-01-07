@@ -11,22 +11,8 @@ test('it should exist', () => {
 
 test('it should return the correct values', () => {
 
-	const oneKilogramToPounds = 2.20462;
-
 	expect(
 		kilogramsToPounds(1)
-	).toBe(oneKilogramToPounds);
-
-	expect(
-		kilogramsToPounds(2)
-	).toBe(oneKilogramToPounds * 2);
-
-	expect(
-		kilogramsToPounds(5)
-	).toBe(oneKilogramToPounds * 5);
-
-	expect(
-		kilogramsToPounds(10)
-	).toBe(oneKilogramToPounds * 10);
+	).toBe(2.20462);
 
 });

@@ -1,8 +1,8 @@
 /**
- * secondsToMilliseconds - Takes seconds and returns the millisecond representation
+ * Converts Seconds (s) to Milliseconds (ms)
  * @param {number} seconds
- * @returns {number} milliseconds
+ * @returns {number}
  */
-export default function (seconds) {
+export default function(seconds) {
 	return seconds * 1000;
 }

@@ -1,8 +1,8 @@
 /**
- * millisecondsToHours - Takes milliseconds and returns the hour representation
+ * Converts Milliseconds (ms) to Hours (h)
  * @param {number} milliseconds
- * @returns {number} hours
+ * @returns {number}
  */
-export default function (milliseconds) {
+export default function(milliseconds) {
 	return milliseconds / 1000 / 60 / 60;
 }

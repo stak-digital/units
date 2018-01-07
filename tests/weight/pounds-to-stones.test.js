@@ -3,30 +3,16 @@ import expect from 'expect';
 
 test('it should exist', () => {
 
-    expect(
-        poundsToStones
-    ).toExist();
+	expect(
+		poundsToStones
+	).toExist();
 
 });
 
 test('it should return the correct values', () => {
 
-    const onePoundToStones = 0.0714286;
-
-    expect(
-        poundsToStones(1)
-    ).toBe(onePoundToStones);
-
-    expect(
-        poundsToStones(10)
-    ).toBe(onePoundToStones * 10);
-
-    expect(
-        poundsToStones(20)
-    ).toBe(onePoundToStones * 20);
-
-    expect(
-        poundsToStones(50)
-    ).toBe(onePoundToStones * 50);
+	expect(
+		poundsToStones(1)
+	).toBe(0.07142857142857142);
 
 });

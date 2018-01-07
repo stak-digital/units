@@ -1,32 +1,18 @@
 import millisecondsToDays from '../../src/time/milliseconds-to-days';
 import expect from 'expect';
 
-describe('millisecondsToDays', () => {
+test('it should exist', () => {
 
-	test('it should exist', () => {
+	expect(
+		millisecondsToDays
+	).toExist();
 
-		expect(
-			millisecondsToDays
-		).toExist();
+});
 
-	});
+test('it should return the correct values', () => {
 
-	test('it should return the correct values', () => {
-
-		const oneDayInMilliseconds = 86400000;
-
-		expect(
-			millisecondsToDays(oneDayInMilliseconds)
-		).toBe(1);
-
-		expect(
-			millisecondsToDays(oneDayInMilliseconds * 5)
-		).toBe(5);
-
-		expect(
-			millisecondsToDays(oneDayInMilliseconds * 10)
-		).toBe(10);
-
-	});
+	expect(
+		millisecondsToDays(1)
+	).toBe(1.1574074074074076e-8);
 
 });

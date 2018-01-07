@@ -1,8 +1,8 @@
 /**
- * millisecondsToMinutes - Takes milliseconds and returns the minute representation
+ * Converts Milliseconds (ms) to Seconds (s)
  * @param {number} milliseconds
- * @returns {number} minutes
+ * @returns {number}
  */
-export default function (milliseconds) {
+export default function(milliseconds) {
 	return milliseconds / 1000;
 }

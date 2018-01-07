@@ -1,8 +1,8 @@
 /**
- * Convert Pounds to Tonnes
+ * Converts Pounds (lb) to Tonnes (t)
  * @param {number} pounds
- * @returns {number} Tonnes
+ * @returns {number}
  */
 export default function(pounds) {
-    return pounds * 0.000453592;
+	return pounds * 0.00045359237;
 }

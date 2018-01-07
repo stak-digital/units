@@ -5,5 +5,5 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 exports.default = function (pounds) {
-  return pounds * 0.000453592;
+  return pounds * 0.00045359237;
 };

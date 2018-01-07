@@ -112,13 +112,15 @@ For full API docs, visit [https://units.js.org](https://units.js.org)
 - Minutes **(Incomplete)**
 - Seconds **(Incomplete)**
 - Milliseconds
+- Microseconds **(Incomplete)**
+- Nanoseconds **(Incomplete)**
 
 ### Weight
 
-- Kilograms **(Incomplete)**
+- Kilograms
 - Pounds
-- Stones **(Incomplete)**
-- Tonnes **(Incomplete)**
+- Stones
+- Tonnes
 
 ## Development
 
