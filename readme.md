@@ -107,13 +107,13 @@ For full API docs, visit [https://units.js.org](https://units.js.org)
 
 ### Time
 
-- Days **(Incomplete)**
-- Hours **(Incomplete)**
-- Minutes **(Incomplete)**
-- Seconds **(Incomplete)**
+- Days
+- Hours
+- Minutes
+- Seconds
 - Milliseconds
-- Microseconds **(Incomplete)**
-- Nanoseconds **(Incomplete)**
+- Microseconds
+- Nanoseconds
 
 ### Weight
 
