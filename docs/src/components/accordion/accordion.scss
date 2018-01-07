@@ -1,0 +1,20 @@
+.accordion {
+	&__title-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20px;
+
+		h1, h2, h3 {
+			margin: 0;
+		}
+	}
+
+	&__inner {
+		display: none;
+
+		&.is-open {
+			display: block;
+		}
+	}
+}
