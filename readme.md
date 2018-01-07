@@ -176,6 +176,15 @@ and an nEqualsOne value which represents the return value when an input of `1` i
 
 ## Changelog
 
+### 1.7.1
+
+- Update docs site with accordions on sections
+
+### 1.7.0
+
+- Add support for microseconds and nanoseconds
+- Add full support for weight units
+
 ### 1.6.0
 
 - Add support for major computer data units
