@@ -1,0 +1,77 @@
+{
+	"name": "weight",
+	"units": [
+		{
+			"name": "kilograms",
+			"symbol": "kg",
+			"convertTo": {
+				"pounds": {
+					"formula": "n * 2.20462",
+					"nEqualsOne": 2.20462
+				},
+				"stones": {
+					"formula": "n * 0.157473",
+					"nEqualsOne": 0.157473
+				},
+				"tonnes": {
+					"formula": "n / 1000",
+					"nEqualsOne": 0.001
+				}
+			}
+		},
+		{
+			"name": "pounds",
+			"symbol": "lb",
+			"convertTo": {
+				"kilograms": {
+					"formula": "n * 0.453592",
+					"nEqualsOne": 0.453592
+				},
+				"stones": {
+					"formula": "n / 14",
+					"nEqualsOne": 0.07142857142857142
+				},
+				"tonnes": {
+					"formula": "n * 0.00045359237",
+					"nEqualsOne": 0.00045359237
+				}
+			}
+		},
+		{
+			"name": "stones",
+			"symbol": "st",
+			"convertTo": {
+				"kilograms": {
+					"formula": "n * 6.35029",
+					"nEqualsOne": 6.35029
+				},
+				"pounds": {
+					"formula": "n * 14",
+					"nEqualsOne": 14
+				},
+				"tonnes": {
+					"formula": "n * 0.00635029",
+					"nEqualsOne": 0.00635029
+				}
+			}
+		},
+		{
+			"name": "tonnes",
+			"symbol": "t",
+			"convertTo": {
+				"kilograms": {
+					"formula": "n * 1000",
+					"nEqualsOne": 1000
+				},
+				"pounds": {
+					"formula": "n * 2204.6215",
+					"nEqualsOne": 2204.6215
+				},
+				"stones": {
+					"formula": "n * 157.47297",
+					"nEqualsOne": 157.47297
+				}
+			}
+		}
+	]
+}
