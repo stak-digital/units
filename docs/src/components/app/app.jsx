@@ -5,6 +5,7 @@ import SideBar from '../sidebar/sidebar.jsx';
 import snakeCase from 'snake-case';
 import kebabCase from 'kebab-case';
 import './app.scss';
+import Accordion from "../accordion/accordion.jsx";
 
 export default class App extends Component {
 	constructor(props) {
@@ -59,7 +60,7 @@ export default class App extends Component {
 					searchTerm={this.state.searchValue}
 					onSearchInputChanged={this.handleSearchInputChanged}
 				/>
-				<div>
+				<main>
 					<h1>
 						Units by Stak Digital
 					</h1>
@@ -174,54 +175,57 @@ export default class App extends Component {
 					{Object.entries(this.state.functionsByCategory).map(([key, value]) => {
 						return (
 							<div className="category">
-								<h2 id={key}>
-									Category: {key}
-								</h2>
-								{value.map(functionInfo => {
-									return (
-										<div className="function" id={snakeCase(functionInfo.functionName)}>
-											<h3>
-												Function: {functionInfo.functionName}
-											</h3>
-											{functionInfo.description !== '' && (
-												<p>
-													{functionInfo.description}
-												</p>
-											)}
-											<h4>
-												Arguments
-											</h4>
-											{functionInfo.arguments.map(argument => {
-												return (
-													<div>
-														<p>
-															{argument.name} {`{${argument.type}}`}
-														</p>
-														{argument.description !== '' && (
+								<Accordion
+									title={<h2 id={key}>
+										Category: {key}
+									</h2>}
+								>
+									{value.map(functionInfo => {
+										return (
+											<div className="function" id={snakeCase(functionInfo.functionName)}>
+												<h3>
+													Function: {functionInfo.functionName}
+												</h3>
+												{functionInfo.description !== '' && (
+													<p>
+														{functionInfo.description}
+													</p>
+												)}
+												<h4>
+													Arguments
+												</h4>
+												{functionInfo.arguments.map(argument => {
+													return (
+														<div>
 															<p>
-																{functionInfo.description}
+																{argument.name} {`{${argument.type}}`}
 															</p>
-														)}
-													</div>
-												);
-											})}
-											<h4>
-												Usage
-											</h4>
-											<pre>
+															{argument.description !== '' && (
+																<p>
+																	{functionInfo.description}
+																</p>
+															)}
+														</div>
+													);
+												})}
+												<h4>
+													Usage
+												</h4>
+												<pre>
 												<code className="javascript">
 													import {functionInfo.functionName} from '@stak-digital/units/{kebabCase(functionInfo.functionName)}';<br/>
 													<br/>
 													{functionInfo.functionName}(10);
 												</code>
 											</pre>
-										</div>
-									);
-								})}
+											</div>
+										);
+									})}
+								</Accordion>
 							</div>
 						);
 					})}
-				</div>
+				</main>
 			</div>
 		);
 	}

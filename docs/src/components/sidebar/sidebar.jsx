@@ -1,4 +1,5 @@
 import { h } from 'preact';
+import Accordion from '../accordion/accordion.jsx';
 import snakeCase from 'snake-case';
 import './sidebar.scss';
 
@@ -51,14 +52,20 @@ export default function({functions, onSearchInputChanged, searchTerm}) {
 			{Object.entries(functions).map(([key, value]) => {
 				return (
 					<ul>
-						<a href={`#${key}`}>
-							{key}
-						</a>
-						<ul>
-							{value.filter(functionInfo => {
-								return functionInfo.functionName.includes(searchTerm)
-							}).map(buildFunctionListItem)}
-						</ul>
+						<Accordion
+							title={
+								<a href={`#${key}`}>
+									{key}
+								</a>
+							}
+							isOpen={false}
+						>
+							<ul>
+								{value.filter(functionInfo => {
+									return functionInfo.functionName.includes(searchTerm)
+								}).map(buildFunctionListItem)}
+							</ul>
+						</Accordion>
 					</ul>
 				);
 			})}

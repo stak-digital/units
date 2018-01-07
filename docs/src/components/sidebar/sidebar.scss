@@ -1,14 +1,24 @@
 .sidebar {
-  width: 20%;
-  max-height: 100vh;
-  overflow: auto;
-  margin-right: 30px;
+	width: 20%;
+	max-height: 100vh;
+	overflow: auto;
+	margin-right: 30px;
+	padding-right: 20px;
 
-  ul {
-    padding: 0;
+	label {
+		display: flex;
+		flex-direction: column;
 
-    ul {
-      padding-left: 20px;
-    }
-  }
+		input {
+			width: 100%;
+		}
+	}
+
+	ul {
+		padding: 0;
+
+		ul {
+			padding-left: 20px;
+		}
+	}
 }
