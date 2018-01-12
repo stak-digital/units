@@ -169,8 +169,8 @@ and an nEqualsOne value which represents the return value when an input of `1` i
 
 ## General
 
-- [ ] Convert existing functions into json version
-- [ ] Add expand collapse to each category in the sub-nav and main of docs site
+- [x] Convert existing functions into json version
+- [x] Add expand collapse to each category in the sub-nav and main of docs site
 - [ ] Add roadmap to docs site
 - [ ] Convert docs site to statically rendered (there's no reason for preact beyond search)
 
