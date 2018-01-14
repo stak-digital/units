@@ -167,12 +167,34 @@ and an nEqualsOne value which represents the return value when an input of `1` i
 
 ## Roadmap
 
-## General
+### General
 
 - [x] Convert existing functions into json version
 - [x] Add expand collapse to each category in the sub-nav and main of docs site
 - [ ] Add roadmap to docs site
 - [ ] Convert docs site to statically rendered (there's no reason for preact beyond search)
+
+### Torque
+
+- Foot-pound (ft·lbf)
+- Inch-pound (in·lbf)
+- Newton meter (N·m)
+- Kilopond-meter (kp·m)
+
+### Frequency
+
+- Hertz (Hz)
+- Kilohertz (kHz)
+- Megahertz (mHz)
+- Gigahertz (gHz)
+- Revolutions per minute (rpm)
+
+### Angles
+
+- Radian (rad)
+- Degree (deg)
+- Arcminute (amin)
+- Arcsecond (asec)
 
 ## Changelog
 
