@@ -1,6 +1,6 @@
 {
 	"name": "@stak-digital/units",
-	"version": "1.7.1",
+	"version": "1.8.0",
 	"main": "index.js",
 	"repository": "https://3stacks@github.com/stak-digital/units.git",
 	"author": "Stak Digital",
