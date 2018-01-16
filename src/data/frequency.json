@@ -1,159 +1,113 @@
 {
-	"name": "area",
+	"name": "frequency",
 	"units": [
 		{
-			"name": "acres",
-			"symbol": "ac",
+			"name": "hertz",
+			"symbol": "Hz",
 			"convertTo": {
-				"hectares": {
-					"formula": "n / 2.4711",
-					"nEqualsOne": 0.40467807858848287
+				"kilohertz": {
+					"formula": "n / 1000",
+					"nEqualsOne": 0.001
 				},
-				"squareFeet": {
-					"formula": "n * 43560",
-					"nEqualsOne": 43560.00
+				"megahertz": {
+					"formula": "n / 1000000",
+					"nEqualsOne": 0.000001
 				},
-				"squareKilometers": {
-					"formula": "n / 247.11",
-					"nEqualsOne": 0.004046780785884828
+				"gigahertz": {
+					"formula": "n / 1e9",
+					"nEqualsOne": 1e-9
 				},
-				"squareMeters": {
-					"formula": "n / 0.00024711",
-					"nEqualsOne": 4046.7807858848287
-				},
-				"squareYards": {
-					"formula": "n / 0.00024711",
-					"nEqualsOne": 4046.7807858848287
+				"revolutionsPerMinute": {
+					"formula": "1 / 60",
+					"nEqualsOne": 0.016666666666666666
 				}
 			}
 		},
 		{
-			"name": "hectares",
-			"symbol": "ha",
+			"name": "kilohertz",
+			"symbol": "kHz",
 			"convertTo": {
-				"acres": {
-					"formula": "n * 2.4711",
-					"nEqualsOne": 2.4711
+				"hertz": {
+					"formula": "n * 1000",
+					"nEqualsOne": 1000
 				},
-				"squareFeet": {
-					"formula": "n * 107640",
-					"nEqualsOne": 107640
+				"megahertz": {
+					"formula": "n / 1000",
+					"nEqualsOne": 0.001
 				},
-				"squareKilometers": {
-					"formula": "n / 100",
-					"nEqualsOne": 0.01000000
+				"gigahertz": {
+					"formula": "n / 10e6",
+					"nEqualsOne": 0.0000001
 				},
-				"squareMeters": {
-					"formula": "n * 10000",
-					"nEqualsOne": 10000
-				},
-				"squareYards": {
-					"formula": "n * 11960",
-					"nEqualsOne": 11960
+				"revolutionsPerMinute": {
+					"formula": "1 * 60000",
+					"nEqualsOne": 60000
 				}
 			}
 		},
 		{
-			"name": "squareFeet",
-			"symbol": "ft²",
+			"name": "megahertz",
+			"symbol": "MHz",
 			"convertTo": {
-				"acres": {
-					"formula": "n * 0.000022957",
-					"nEqualsOne": 0.000022957
-				},
-				"hectares": {
-					"formula": "n / 107640",
-					"nEqualsOne": 0.00000929022668153103
-				},
-				"squareKilometers": {
-					"formula": "n / 10764000",
-					"nEqualsOne": 9.29022668153103e-8
-				},
-				"squareMeters": {
-					"formula": "n / 10.7639",
-					"nEqualsOne": 0.09290312990644656
-				},
-				"squareYards": {
-					"formula": "n * 0.1111111",
-					"nEqualsOne": 0.1111111
-				}
-			}
-		},
-		{
-			"name": "squareKilometers",
-			"symbol": "km²",
-			"convertTo": {
-				"acres": {
-					"formula": "n * 247.11",
-					"nEqualsOne": 247.11
-				},
-				"hectares": {
-					"formula": "n / 0.010000",
-					"nEqualsOne": 100
-				},
-				"squareFeet": {
-					"formula": "n * 10764000",
-					"nEqualsOne": 10764000
-				},
-				"squareMeters": {
-					"formula": "n / 0.0000010000",
+				"hertz": {
+					"formula": "n * 1000000",
 					"nEqualsOne": 1000000
 				},
-				"squareYards": {
-					"formula": "n * 1196000",
-					"nEqualsOne": 1196000
+				"kilohertz": {
+					"formula": "n * 1000",
+					"nEqualsOne": 1000
+				},
+				"gigahertz": {
+					"formula": "n / 1000",
+					"nEqualsOne": 0.001
+				},
+				"revolutionsPerMinute": {
+					"formula": "1 * 60000000",
+					"nEqualsOne": 60000000
 				}
 			}
 		},
 		{
-			"name": "squareMeters",
-			"symbol": "m²",
+			"name": "gigahertz",
+			"symbol": "GHz",
 			"convertTo": {
-				"acres": {
-					"formula": "n * 0.00024711",
-					"nEqualsOne": 0.00024711
+				"hertz": {
+					"formula": "n * 10e9",
+					"nEqualsOne": 10e9
 				},
-				"hectares": {
-					"formula": "n / 10000",
-					"nEqualsOne": 0.0001000000
+				"kilohertz": {
+					"formula": "n * 10e6",
+					"nEqualsOne": 10e6
 				},
-				"squareFeet": {
-					"formula": "n * 10.7639",
-					"nEqualsOne": 10.7639
+				"megahertz": {
+					"formula": "n * 1000",
+					"nEqualsOne": 1000
 				},
-				"squareKilometers": {
-					"formula": "n / 1000000",
-					"nEqualsOne": 0.000001000000
-				},
-				"squareYards": {
-					"formula": "n * 1.1960",
-					"nEqualsOne": 1.196
+				"revolutionsPerMinute": {
+					"formula": "1 * 60000000000",
+					"nEqualsOne": 60000000000
 				}
 			}
 		},
 		{
-			"name": "squareYards",
-			"symbol": "yd²",
+			"name": "revolutionsPerMinute",
+			"symbol": "rpm",
 			"convertTo": {
-				"acres": {
-					"formula": "n * 0.00020661",
-					"nEqualsOne": 0.00020661
+				"hertz": {
+					"formula": "1 / 60",
+					"nEqualsOne": 0.016666666666666666
 				},
-				"hectares": {
-					"formula": "n / 11960",
-					"nEqualsOne": 0.00008361204013377926
+				"kilohertz": {
+					"formula": "n / 60000",
+					"nEqualsOne": 0.000016666666666666667
 				},
-				"squareFeet": {
-					"formula": "n * 9.0000",
-					"nEqualsOne": 9.000000
+				"megahertz": {
+					"formula": "n / 60000000",
+					"nEqualsOne": 1.6666666666666667e-8
 				},
-				"squareKilometers": {
-					"formula": "n / 1196000",
-					"nEqualsOne": 8.361204013377926e-7
-				},
-				"squareMeters": {
-					"formula": "n / 1.1960",
-					"nEqualsOne": 0.8361204013377926
+				"gigahertz": {
+					"formula": "n / 60000000000",
+					"nEqualsOne": 1.6666666666666667e-11
 				}
 			}
 		}

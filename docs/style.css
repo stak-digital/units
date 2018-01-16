@@ -1,15 +1,3 @@
-.accordion__title-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px; }
-  .accordion__title-container h1, .accordion__title-container h2, .accordion__title-container h3 {
-    margin: 0; }
-
-.accordion__inner {
-  display: none; }
-  .accordion__inner.is-open {
-    display: block; }
 * {
   box-sizing: border-box; }
 
@@ -52,3 +40,15 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0; }
     .sidebar ul ul {
       padding-left: 20px; }
+.accordion__title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; }
+  .accordion__title-container h1, .accordion__title-container h2, .accordion__title-container h3 {
+    margin: 0; }
+
+.accordion__inner {
+  display: none; }
+  .accordion__inner.is-open {
+    display: block; }

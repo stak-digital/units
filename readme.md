@@ -122,6 +122,14 @@ For full API docs, visit [https://units.js.org](https://units.js.org)
 - Stones
 - Tonnes
 
+### Frequency
+
+- Hertz (Hz)
+- Kilohertz (kHz)
+- Megahertz (mHz)
+- Gigahertz (gHz)
+- Revolutions per minute (rpm)
+
 ## Development
 
 ### Adding a new unit
@@ -180,14 +188,6 @@ and an nEqualsOne value which represents the return value when an input of `1` i
 - Inch-pound (in·lbf)
 - Newton meter (N·m)
 - Kilopond-meter (kp·m)
-
-### Frequency
-
-- Hertz (Hz)
-- Kilohertz (kHz)
-- Megahertz (mHz)
-- Gigahertz (gHz)
-- Revolutions per minute (rpm)
 
 ### Angles
 
