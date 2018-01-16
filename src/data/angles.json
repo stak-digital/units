@@ -1,0 +1,38 @@
+{
+	"name": "angles",
+	"units": [
+		{
+			"name": "radian",
+			"symbol": "rad",
+			"convertTo": {
+				"degree": {
+					"formula": "n * 180 / Math.PI",
+					"nEqualsOne": "57.295779513"
+				},
+				"arcminute": {
+					"formula": "",
+					"nEqualsOne": ""
+				},
+				"arcsecond": {
+					"formula": "",
+					"nEqualsOne": ""
+				}
+			}
+		},
+		{
+			"name": "degree",
+			"symbol": "deg",
+			"convertTo": {}
+		},
+		{
+			"name": "arcminute",
+			"symbol": "amin",
+			"convertTo": {}
+		},
+		{
+			"name": "arcsecond",
+			"symbol": "asec",
+			"convertTo": {}
+		}
+	]
+}

@@ -122,6 +122,13 @@ For full API docs, visit [https://units.js.org](https://units.js.org)
 - Stones
 - Tonnes
 
+### Angles
+
+- Radian (rad)
+- Degree (deg)
+- Arcminute (amin)
+- Arcsecond (asec)
+
 ## Development
 
 ### Adding a new unit
@@ -188,13 +195,6 @@ and an nEqualsOne value which represents the return value when an input of `1` i
 - Megahertz (mHz)
 - Gigahertz (gHz)
 - Revolutions per minute (rpm)
-
-### Angles
-
-- Radian (rad)
-- Degree (deg)
-- Arcminute (amin)
-- Arcsecond (asec)
 
 ## Changelog
 
