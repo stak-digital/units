@@ -198,6 +198,10 @@ and an nEqualsOne value which represents the return value when an input of `1` i
 
 ## Changelog
 
+### 1.8.0
+
+- Add frequency category
+
 ### 1.7.1
 
 - Update docs site with accordions on sections
