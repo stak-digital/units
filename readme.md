@@ -196,12 +196,12 @@ and an nEqualsOne value which represents the return value when an input of `1` i
 - milliliters (mL)
 - cubic feet (cu ft)
 - cubic inches (cu in)
-- imperial gallons (gal)
-- imperial quarts (qt)
-- imperial pints (pt)
-- imperial fluid ounces (fl oz)
-- imperial tablespoons (tbsp)
-- imperial teaspoons (tsp)
+- gallons (gal)
+- quarts (qt)
+- pints (pt)
+- fluid ounces (fl oz)
+- tablespoons (tbsp)
+- teaspoons (tsp)
 
 ### Velocity
 
@@ -216,9 +216,9 @@ and an nEqualsOne value which represents the return value when an input of `1` i
 ### Fuel Efficiency
 
 - Kilometers per liter (km/L)
-- miles per imperial gallon (mi/gal)
+- miles per gallon (mi/gal)
 - liter per 100 kilometers (L/100km)
-- imperial gallons per 100 miles (gal/100mi)
+- gallons per 100 miles (gal/100mi)
 
 ### Density
 
@@ -229,14 +229,14 @@ and an nEqualsOne value which represents the return value when an input of `1` i
 - ounces per cubic inch (oz/in^3)
 - pounds per cubic foot (lb/ft^3)
 - pounds per cubic inch (lb/in^3)
-- ounces per imperial gallon (oz/gal)
-- pounds per imperial gallon (lb/gal)
+- ounces per gallon (oz/gal)
+- pounds per gallon (lb/gal)
 
 ### Flow
 
 - cubic meters per second (m^3/s)
 - liters per minute (L/min)
-- imperial gallons per minute (gal/min)
+- gallons per minute (gal/min)
 - cubic meters per hour (m^3/h)
 
 ### Acceleration 
