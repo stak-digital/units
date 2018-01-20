@@ -17,11 +17,11 @@
 					"formula": "n * 7.2330140801469",
 					"nEqualsOne": 7.2330140801469
 				},
-				"pound-force": {
+				"poundForce": {
 					"formula": "n * 0.22480894387096",
 					"nEqualsOne": 0.22480894387096
 				},
-				"ounce-force": {
+				"ounceForce": {
 					"formula": "n * 3.5969431019354",
 					"nEqualsOne": 3.5969431019354
 				}
@@ -41,15 +41,15 @@
 				},
 				"poundal": {
 					"formula": "n / 13825.495",
-					"nEqualsOne": 0.000072330140801469
+					"nEqualsOne": 0.00007233014080146858
 				},
-				"pound-force": {
+				"poundForce": {
 					"formula": "n / 444822.16",
-					"nEqualsOne": 0.0000022480894387096
+					"nEqualsOne": 0.0000022480894387096185
 				},
-				"ounce-force": {
+				"ounceForce": {
 					"formula": "n / 27801.385",
-					"nEqualsOne": 0.000035969431019354
+					"nEqualsOne": 0.000035969431019353896
 				}
 			}
 		},
@@ -59,23 +59,23 @@
 			"convertTo": {
 				"newton": {
 					"formula": "n / 0.10197162129779",
-					"nEqualsOne": 9.80665
+					"nEqualsOne": 9.806650000000271
 				},
 				"dyne": {
 					"formula": "n / 1.0197162129779e-6",
-					"nEqualsOne": 980665
+					"nEqualsOne": 980665.0000000271
 				},
 				"poundal": {
 					"formula": "n / 0.014098081403945",
-					"nEqualsOne": 70.931637529072
+					"nEqualsOne": 70.93163752907361
 				},
-				"pound-force": {
+				"poundForce": {
 					"formula": "n / 0.45359236844386",
-					"nEqualsOne": 2.2046226294122
+					"nEqualsOne": 2.204622629412178
 				},
-				"ounce-force": {
+				"ounceForce": {
 					"formula": "n / 0.028349523027741",
-					"nEqualsOne": 35.273962070595
+					"nEqualsOne": 35.27396207059516
 				}
 			}
 		},
@@ -95,18 +95,18 @@
 					"formula": "n * 0.014098081403945",
 					"nEqualsOne": 0.014098081403945
 				},
-				"pound-force": {
+				"poundForce": {
 					"formula": "n / 32.174049464413",
-					"nEqualsOne": 0.031080949294433
+					"nEqualsOne": 0.03108094929443301
 				},
-				"ounce-force": {
+				"ounceForce": {
 					"formula": "n / 2.0108780915258",
-					"nEqualsOne": 0.49729518871092
+					"nEqualsOne": 0.4972951887109312
 				}
 			}
 		},
 		{
-			"name": "pound-force",
+			"name": "poundForce",
 			"symbol": "lbf",
 			"convertTo": {
 				"newton": {
@@ -125,14 +125,14 @@
 					"formula": "n * 32.174049464413",
 					"nEqualsOne": 32.174049464413
 				},
-				"ounce-force": {
+				"ounceForce": {
 					"formula": "n * 16",
 					"nEqualsOne": 16
 				}
 			}
 		},
 		{
-			"name": "ounce-force",
+			"name": "ounceForce",
 			"symbol": "ozf",
 			"convertTo": {
 				"newton": {
@@ -151,7 +151,7 @@
 					"formula": "n * 2.0108780915258",
 					"nEqualsOne": 2.0108780915258
 				},
-				"pound-force": {
+				"poundForce": {
 					"formula": "n * 0.0625",
 					"nEqualsOne": 0.0625
 				}
