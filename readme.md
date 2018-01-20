@@ -182,6 +182,91 @@ and an nEqualsOne value which represents the return value when an input of `1` i
 - [ ] Add roadmap to docs site
 - [ ] Convert docs site to statically rendered (there's no reason for preact beyond search)
 
+### Angles
+
+- Radian (rad)
+- Degree (deg)
+- Arcminute (amin)
+- Arcsecond (asec)
+
+### Volume
+
+- Cubic meter (m^3)
+- liters (L)
+- milliliters (mL)
+- cubic feet (cu ft)
+- cubic inches (cu in)
+- imperial gallons (gal)
+- imperial quarts (qt)
+- imperial pints (pt)
+- imperial fluid ounces (fl oz)
+- imperial tablespoons (tbsp)
+- imperial teaspoons (tsp)
+
+### Velocity
+
+- meters per second (m/s)
+- mile per hour (mph)
+- kilometer per hour (km/h)
+- feet per second (fps)
+- knot (kn)
+- speed of light (c)
+- speed of sound (s)
+
+### Fuel Efficiency
+
+- Kilometers per liter (km/L)
+- miles per imperial gallon (mi/gal)
+- liter per 100 kilometers (L/100km)
+- imperial gallons per 100 miles (gal/100mi)
+
+### Density
+
+- kilograms per cubic meter (kg/m^3)
+- kilograms per liter (kg/L)
+- grams per cubic centimeter (g/cm^3)
+- ounces per cubic foot (oz/ft^3)
+- ounces per cubic inch (oz/in^3)
+- pounds per cubic foot (lb/ft^3)
+- pounds per cubic inch (lb/in^3)
+- ounces per imperial gallon (oz/gal)
+- pounds per imperial gallon (lb/gal)
+
+### Flow
+
+- cubic meters per second (m^3/s)
+- liters per minute (L/min)
+- imperial gallons per minute (gal/min)
+- cubic meters per hour (m^3/h)
+
+### Acceleration 
+
+- Meters per second squared (m/s^2)
+- galileo (Gal)
+- standard gravity (g)
+- mile per hour per second (mph/s)
+- knot per second (kn/s)
+
+### Force
+
+- newton (N)
+- dyne (dyn)
+- kilopond (kp)
+- poundal (pdl)
+- pound-force (lbf)
+- ounce-force (ozf)
+
+### Pressure
+
+- pascal (Pa)
+- pounds per square inch (psi)
+- atmosphere (atm)
+- bar (bar)
+- millibar (mbar)
+- millimeter of mercury (mmHg)
+- kilopascal (kPa)
+- megapascal (MPa)
+
 ### Torque
 
 - Foot-pound (ft·lbf)
@@ -189,12 +274,68 @@ and an nEqualsOne value which represents the return value when an input of `1` i
 - Newton meter (N·m)
 - Kilopond-meter (kp·m)
 
-### Angles
+### Energy
 
-- Radian (rad)
-- Degree (deg)
-- Arcminute (amin)
-- Arcsecond (asec)
+- joule (J)
+- erg (erg)
+- kilowatt-hour (kW·h)
+- megawatt-hour (MW·h)
+- calorie (cal)
+- kilocalorie (kcal)
+- British thermal unit (Btu)
+
+### Viscosity 
+
+- pascal seconds (Pa·s)
+- poise (P)
+- pounds per foot hour (lb/(ft·h))
+- pounds per foot second (lb/(ft·s))
+
+### Current
+
+- ampere (A)
+- abampere (abA)
+- statampere (statA)
+
+### Charge
+
+- coulomb (C)
+- abcoulomb (abC)
+- statcoulomb (statC)
+- faraday (F)
+- milliampere hour (mA·h)
+
+### Voltage
+
+- volt (V)
+- abvolt (abV)
+- statvolt (statV)
+
+### Luminance
+
+- candela per square meter (cd/m^3)
+- stilb (sb)
+- lambert (L)
+- footlambert (fL)
+
+### Illuminance
+
+- lux (lx)
+- phot (ph)
+- footcandle (fc)
+
+### Radiation
+
+- gray (Gy)
+- rad (rad)
+- sievert (Sv)
+- rem (rem)
+
+### Radioactivity
+
+- becquerel (Bq)
+- curie (Ci)
+- rutherford (rd)
 
 ## Changelog
 
