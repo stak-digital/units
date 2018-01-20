@@ -1,8 +1,8 @@
 /**
  * Converts Pound Force (lbf) to Newton (N)
- * @param {number} pound-force
+ * @param {number} poundForce
  * @returns {number}
  */
-export default function(pound-force) {
-	return pound-force * 4.4482216;
+export default function(poundForce) {
+	return poundForce * 4.4482216;
 }

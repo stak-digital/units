@@ -1,8 +1,8 @@
 /**
  * Converts Pound Force (lbf) to Ounce Force (ozf)
- * @param {number} pound-force
+ * @param {number} poundForce
  * @returns {number}
  */
-export default function(pound-force) {
-	return pound-force * 16;
+export default function(poundForce) {
+	return poundForce * 16;
 }

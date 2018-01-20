@@ -13,6 +13,6 @@ test('it should return the correct values', () => {
 
 	expect(
 		kilopondToDyne(1)
-	).toBe(980665);
+	).toBe(980665.0000000271);
 
 });

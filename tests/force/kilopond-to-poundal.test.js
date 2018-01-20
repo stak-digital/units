@@ -13,6 +13,6 @@ test('it should return the correct values', () => {
 
 	expect(
 		kilopondToPoundal(1)
-	).toBe(70.931637529072);
+	).toBe(70.93163752907361);
 
 });

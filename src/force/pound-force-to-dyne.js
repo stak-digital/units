@@ -1,8 +1,8 @@
 /**
  * Converts Pound Force (lbf) to Dyne (dyn)
- * @param {number} pound-force
+ * @param {number} poundForce
  * @returns {number}
  */
-export default function(pound-force) {
-	return pound-force * 444822.16;
+export default function(poundForce) {
+	return poundForce * 444822.16;
 }

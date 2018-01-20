@@ -13,6 +13,6 @@ test('it should return the correct values', () => {
 
 	expect(
 		kilopondToOunceForce(1)
-	).toBe(35.273962070595);
+	).toBe(35.27396207059516);
 
 });

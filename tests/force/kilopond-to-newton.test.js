@@ -13,6 +13,6 @@ test('it should return the correct values', () => {
 
 	expect(
 		kilopondToNewton(1)
-	).toBe(9.80665);
+	).toBe(9.806650000000271);
 
 });

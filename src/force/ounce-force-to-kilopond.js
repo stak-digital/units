@@ -1,8 +1,8 @@
 /**
  * Converts Ounce Force (ozf) to Kilopond (kp)
- * @param {number} ounce-force
+ * @param {number} ounceForce
  * @returns {number}
  */
-export default function(ounce-force) {
-	return ounce-force * 0.028349523027741;
+export default function(ounceForce) {
+	return ounceForce * 0.028349523027741;
 }

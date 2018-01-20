@@ -1,8 +1,8 @@
 /**
  * Converts Pound Force (lbf) to Poundal (pdl)
- * @param {number} pound-force
+ * @param {number} poundForce
  * @returns {number}
  */
-export default function(pound-force) {
-	return pound-force * 32.174049464413;
+export default function(poundForce) {
+	return poundForce * 32.174049464413;
 }

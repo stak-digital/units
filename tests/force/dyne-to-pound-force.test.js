@@ -13,6 +13,6 @@ test('it should return the correct values', () => {
 
 	expect(
 		dyneToPoundForce(1)
-	).toBe(0.0000022480894387096);
+	).toBe(0.0000022480894387096185);
 
 });

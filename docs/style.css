@@ -10,6 +10,21 @@
   display: none; }
   .accordion__inner.is-open {
     display: block; }
+.sidebar {
+  width: 20%;
+  max-height: 100vh;
+  overflow: auto;
+  margin-right: 30px;
+  padding-right: 20px; }
+  .sidebar label {
+    display: flex;
+    flex-direction: column; }
+    .sidebar label input {
+      width: 100%; }
+  .sidebar ul {
+    padding: 0; }
+    .sidebar ul ul {
+      padding-left: 20px; }
 * {
   box-sizing: border-box; }
 
@@ -37,18 +52,3 @@ main {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0; }
-.sidebar {
-  width: 20%;
-  max-height: 100vh;
-  overflow: auto;
-  margin-right: 30px;
-  padding-right: 20px; }
-  .sidebar label {
-    display: flex;
-    flex-direction: column; }
-    .sidebar label input {
-      width: 100%; }
-  .sidebar ul {
-    padding: 0; }
-    .sidebar ul ul {
-      padding-left: 20px; }

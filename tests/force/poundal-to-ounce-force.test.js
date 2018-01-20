@@ -13,6 +13,6 @@ test('it should return the correct values', () => {
 
 	expect(
 		poundalToOunceForce(1)
-	).toBe(0.49729518871092);
+	).toBe(0.4972951887109312);
 
 });

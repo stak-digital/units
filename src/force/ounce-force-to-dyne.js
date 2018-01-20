@@ -1,8 +1,8 @@
 /**
  * Converts Ounce Force (ozf) to Dyne (dyn)
- * @param {number} ounce-force
+ * @param {number} ounceForce
  * @returns {number}
  */
-export default function(ounce-force) {
-	return ounce-force * 27801.385;
+export default function(ounceForce) {
+	return ounceForce * 27801.385;
 }
