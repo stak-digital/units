@@ -130,6 +130,15 @@ For full API docs, visit [https://units.js.org](https://units.js.org)
 - Gigahertz (gHz)
 - Revolutions per minute (rpm)
 
+### Force
+
+- newton (N)
+- dyne (dyn)
+- kilopond (kp)
+- poundal (pdl)
+- pound-force (lbf)
+- ounce-force (ozf)
+
 ## Development
 
 ### Adding a new unit
@@ -246,15 +255,6 @@ and an nEqualsOne value which represents the return value when an input of `1` i
 - standard gravity (g)
 - mile per hour per second (mph/s)
 - knot per second (kn/s)
-
-### Force
-
-- newton (N)
-- dyne (dyn)
-- kilopond (kp)
-- poundal (pdl)
-- pound-force (lbf)
-- ounce-force (ozf)
 
 ### Pressure
 
