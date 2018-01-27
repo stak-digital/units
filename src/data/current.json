@@ -1,0 +1,47 @@
+{
+	"name": "current",
+	"units": [
+		{
+			"name": "ampere",
+			"symbol": "A",
+			"convertTo": {
+				"abampere": {
+					"formula": "n / 10",
+					"nEqualsOne": 0.1
+				},
+				"statampere": {
+					"formula": "n / 3.335641E-10",
+					"nEqualsOne": 2997924536.8431435
+				}
+			}
+		},
+		{
+			"name": "abampere",
+			"symbol": "abA",
+			"convertTo": {
+				"ampere": {
+					"formula": "n * 10",
+					"nEqualsOne": 10
+				},
+				"statampere": {
+					"formula": "n / 3.335641E-11",
+					"nEqualsOne": 29979245368.43144
+				}
+			}
+		},
+		{
+			"name": "statampere",
+			"symbol": "statA",
+			"convertTo": {
+				"ampere": {
+					"formula": "n / 2997924536.8431",
+					"nEqualsOne": 3.335641000000048e-10
+				},
+				"abampere": {
+					"formula": "n / 29979245368.431",
+					"nEqualsOne": 3.335641000000048e-11
+				}
+			}
+		}
+	]
+}
