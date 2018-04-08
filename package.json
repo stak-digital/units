@@ -54,7 +54,8 @@
 		"build:demo": "NODE_ENV=production webpack --config ./scripts/webpack.config.js --color --display-error-details && node ./node_modules/uglify-es/bin/uglifyjs ./docs/bundle.js -o ./docs/bundle.js",
 		"watch:tests": "NODE_ENV=test jest --watchAll",
 		"watch:demo": "node ./scripts/docs.js && webpack-dev-server --config ./scripts/webpack.config.js && webpack -w --config ./scripts/webpack.config.js --color --display-error-details",
-		"docs": "node ./scripts/docs.js && npm run build:demo"
+		"docs": "node ./scripts/docs.js && npm run build:demo",
+		"start": "npm run all && npm run watch:demo"
 	},
 	"babel": {
 		"env": {
