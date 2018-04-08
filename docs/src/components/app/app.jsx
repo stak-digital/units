@@ -82,46 +82,49 @@ export default class App extends Component {
 						</a>
 					</div>
 
-					<h2 id="getting_started">
-						Getting started
-					</h2>
+					<div className="body-block">
+						<h2 id="getting_started">
+							Getting started
+						</h2>
 
-					<pre>
-						<code className="bash">
-							yarn add @stak-digital/units
-						</code>
-					</pre>
-					<pre>
-						<code className="bash">
-							npm install --save @stak-digital/units
-						</code>
-					</pre>
+						<pre>
+							<code className="bash">
+								yarn add @stak-digital/units
+							</code>
+						</pre>
+						<pre>
+							<code className="bash">
+								npm install --save @stak-digital/units
+							</code>
+						</pre>
+					</div>
 
-					<h2 id="usage">
-						Usage
-					</h2>
+					<div className="body-block">
+						<h2 id="usage">
+							Usage
+						</h2>
 
-					<p>
-						The library is split into three tiers:
-					</p>
+						<p>
+							The library is split into three tiers:
+						</p>
 
-					<ul>
-						<li>
-							Library (index.js)
-						</li>
-						<li>
-							Conversion category (weight.js, length.js)
-						</li>
-						<li>
-							Individual function (poundsToKilograms.js)
-						</li>
-					</ul>
+						<ul>
+							<li>
+								Library (index.js)
+							</li>
+							<li>
+								Conversion category (weight.js, length.js)
+							</li>
+							<li>
+								Individual function (poundsToKilograms.js)
+							</li>
+						</ul>
 
-					<h3 id="usage_library_version">
-						Library version
-					</h3>
+						<h3 id="usage_library_version">
+							Library version
+						</h3>
 
-					<pre>
+						<pre>
 						<code className="javascript">
 							import units from '@stak-digital/units';<br/>
 							<br/>
@@ -135,11 +138,11 @@ export default class App extends Component {
 						</code>
 					</pre>
 
-					<h3 id="usage_category_version">
-						Category version
-					</h3>
+						<h3 id="usage_category_version">
+							Category version
+						</h3>
 
-					<pre>
+						<pre>
 						<code className="javascript">
 							import convertWeight from '@stak-digital/units/weight'; <br/>
 							import convertLength from '@stak-digital/units/length'; <br/>
@@ -154,11 +157,11 @@ export default class App extends Component {
 						</code>
 					</pre>
 
-					<h3 id="usage_individual_functions">
-						Individual functions
-					</h3>
+						<h3 id="usage_individual_functions">
+							Individual functions
+						</h3>
 
-					<pre>
+						<pre>
 						<code className="javascript">
 							import poundsToKilograms from '@stak-digital/units/pounds-to-kilograms'; <br/>
 							import inchesToMeters from '@stak-digital/units/inches-to-meters'; <br/>
@@ -172,9 +175,10 @@ export default class App extends Component {
 							/* 0.762 */
 						</code>
 					</pre>
+					</div>
 					{Object.entries(this.state.functionsByCategory).map(([key, value]) => {
 						return (
-							<div className="category">
+							<div className="category body-block">
 								<Accordion
 									title={<h2 id={key}>
 										Category: {key}
