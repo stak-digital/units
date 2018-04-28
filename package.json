@@ -5,6 +5,17 @@
 	"repository": "https://3stacks@github.com/stak-digital/units.git",
 	"author": "Stak Digital",
 	"license": "MIT",
+	"keywords": [
+		"unit conversion",
+		"convert",
+		"temperature",
+		"time",
+		"current",
+		"force",
+		"area",
+		"weight",
+		"isomorphic"
+	],
 	"devDependencies": {
 		"@lukeboyle/get-filename-from-path": "^1.0.3",
 		"allege": "^1.0.6",
