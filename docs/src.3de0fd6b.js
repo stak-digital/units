@@ -395,4 +395,4 @@ module.exports=[{functionName:"acresToHectares",description:"Converts Acres (ac)
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=require("preact"),n=r(require("./components/app/app.jsx"));function r(e){return e&&e.__esModule?e:{default:e}}var t=require("./docs.json");window.addEventListener("load",function(){(0,e.render)((0,e.h)(n.default,{functions:t}),document.getElementById("root"))});
 },{"preact":"s+SE","./components/app/app.jsx":"91bx","./docs.json":"ZoLs"}]},{},["Focm"], null)
-//# sourceMappingURL=/src.3d38ad3c.js.map
+//# sourceMappingURL=/src.3de0fd6b.js.map
