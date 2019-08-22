@@ -13,7 +13,6 @@ const getFileNameFromPath = require('@lukeboyle/get-filename-from-path');
 		const filesWithoutAggregateFiles = files.filter(file => allege(file).isNoneOf(...itemsToIgnore));
 		const docs = filesWithoutAggregateFiles.map(file => {
 			const fileContent = fs.readFileSync(file, {encoding: 'utf-8'});
-			console.log(fileContent);
 			const jsDocContent = commentParse(fileContent.slice(fileContent.indexOf('/**'), fileContent.indexOf('*/') + 2))[0];
 			const arguments = jsDocContent.tags.filter(tag => tag.tag === 'param').map(tag => {
 				return {

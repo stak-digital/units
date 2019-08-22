@@ -1,25 +1,28 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 exports.__esModule = true;
-var hertz_to_kilohertz_1 = require("./frequency/hertz-to-kilohertz");
-var hertz_to_megahertz_1 = require("./frequency/hertz-to-megahertz");
-var hertz_to_gigahertz_1 = require("./frequency/hertz-to-gigahertz");
-var hertz_to_revolutions_per_minute_1 = require("./frequency/hertz-to-revolutions-per-minute");
-var kilohertz_to_hertz_1 = require("./frequency/kilohertz-to-hertz");
-var kilohertz_to_megahertz_1 = require("./frequency/kilohertz-to-megahertz");
-var kilohertz_to_gigahertz_1 = require("./frequency/kilohertz-to-gigahertz");
-var kilohertz_to_revolutions_per_minute_1 = require("./frequency/kilohertz-to-revolutions-per-minute");
-var megahertz_to_hertz_1 = require("./frequency/megahertz-to-hertz");
-var megahertz_to_kilohertz_1 = require("./frequency/megahertz-to-kilohertz");
-var megahertz_to_gigahertz_1 = require("./frequency/megahertz-to-gigahertz");
-var megahertz_to_revolutions_per_minute_1 = require("./frequency/megahertz-to-revolutions-per-minute");
-var gigahertz_to_hertz_1 = require("./frequency/gigahertz-to-hertz");
-var gigahertz_to_kilohertz_1 = require("./frequency/gigahertz-to-kilohertz");
-var gigahertz_to_megahertz_1 = require("./frequency/gigahertz-to-megahertz");
-var gigahertz_to_revolutions_per_minute_1 = require("./frequency/gigahertz-to-revolutions-per-minute");
-var revolutions_per_minute_to_hertz_1 = require("./frequency/revolutions-per-minute-to-hertz");
-var revolutions_per_minute_to_kilohertz_1 = require("./frequency/revolutions-per-minute-to-kilohertz");
-var revolutions_per_minute_to_megahertz_1 = require("./frequency/revolutions-per-minute-to-megahertz");
-var revolutions_per_minute_to_gigahertz_1 = require("./frequency/revolutions-per-minute-to-gigahertz");
+var hertz_to_kilohertz_1 = __importDefault(require("./frequency/hertz-to-kilohertz"));
+var hertz_to_megahertz_1 = __importDefault(require("./frequency/hertz-to-megahertz"));
+var hertz_to_gigahertz_1 = __importDefault(require("./frequency/hertz-to-gigahertz"));
+var hertz_to_revolutions_per_minute_1 = __importDefault(require("./frequency/hertz-to-revolutions-per-minute"));
+var kilohertz_to_hertz_1 = __importDefault(require("./frequency/kilohertz-to-hertz"));
+var kilohertz_to_megahertz_1 = __importDefault(require("./frequency/kilohertz-to-megahertz"));
+var kilohertz_to_gigahertz_1 = __importDefault(require("./frequency/kilohertz-to-gigahertz"));
+var kilohertz_to_revolutions_per_minute_1 = __importDefault(require("./frequency/kilohertz-to-revolutions-per-minute"));
+var megahertz_to_hertz_1 = __importDefault(require("./frequency/megahertz-to-hertz"));
+var megahertz_to_kilohertz_1 = __importDefault(require("./frequency/megahertz-to-kilohertz"));
+var megahertz_to_gigahertz_1 = __importDefault(require("./frequency/megahertz-to-gigahertz"));
+var megahertz_to_revolutions_per_minute_1 = __importDefault(require("./frequency/megahertz-to-revolutions-per-minute"));
+var gigahertz_to_hertz_1 = __importDefault(require("./frequency/gigahertz-to-hertz"));
+var gigahertz_to_kilohertz_1 = __importDefault(require("./frequency/gigahertz-to-kilohertz"));
+var gigahertz_to_megahertz_1 = __importDefault(require("./frequency/gigahertz-to-megahertz"));
+var gigahertz_to_revolutions_per_minute_1 = __importDefault(require("./frequency/gigahertz-to-revolutions-per-minute"));
+var revolutions_per_minute_to_hertz_1 = __importDefault(require("./frequency/revolutions-per-minute-to-hertz"));
+var revolutions_per_minute_to_kilohertz_1 = __importDefault(require("./frequency/revolutions-per-minute-to-kilohertz"));
+var revolutions_per_minute_to_megahertz_1 = __importDefault(require("./frequency/revolutions-per-minute-to-megahertz"));
+var revolutions_per_minute_to_gigahertz_1 = __importDefault(require("./frequency/revolutions-per-minute-to-gigahertz"));
 exports["default"] = {
     hertzToKilohertz: hertz_to_kilohertz_1["default"],
     hertzToMegahertz: hertz_to_megahertz_1["default"],

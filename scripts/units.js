@@ -17,7 +17,7 @@ const chalk = require('chalk');
  * }>} units
  */
 
-glob('./src/data/*.json', (err, files) => {
+glob('./scripts/data/*.json', (err, files) => {
 	const categories = files.map(file => {
 		return JSON.parse(fs.readFileSync(file, {encoding: 'utf-8'}));
 	});
