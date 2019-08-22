@@ -41,6 +41,6 @@ const getFileNameFromPath = require('@lukeboyle/get-filename-from-path');
 			};
 		});
 
-		fs.writeFileSync('docs/docs.json', JSON.stringify(docs));
+		fs.writeFileSync('docs/src/docs.json', JSON.stringify(docs));
 	});
 })();
