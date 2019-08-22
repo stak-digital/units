@@ -1,9 +1,11 @@
-# Units by Stak Digital
+# Lodash for unit conversions
+## Units by Stak Digital
 
-[![Build Status](https://travis-ci.org/stak-digital/units.svg?branch=master)](https://travis-ci.org/stak-digital/units)
 [![codecov](https://codecov.io/gh/stak-digital/units/branch/master/graph/badge.svg)](https://codecov.io/gh/stak-digital/units)
 
 A highly modular unit conversion library.
+
+For full API docs, visit [https://units.js.org](https://units.js.org)
 
 ## Getting Started
 
@@ -64,8 +66,6 @@ const amountInInches = 30;
 const amountInMeters = inchesToMeters(amountInInches);
     // 0.762
 ```
-
-For full API docs, visit [https://units.js.org](https://units.js.org)
 
 ## Supported Units
 
