@@ -1,9 +1,11 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (kelvin) {
-  return kelvin * (9 / 5);
-};
+exports.__esModule = true;
+/**
+ * Converts Kelvin (K) to Rankine (R)
+ * @param {number} kelvin
+ * @returns {number}
+ */
+function default_1(kelvin) {
+    return kelvin * (9 / 5);
+}
+exports["default"] = default_1;

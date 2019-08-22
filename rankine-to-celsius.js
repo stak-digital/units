@@ -1,9 +1,11 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (rankine) {
-  return (rankine - 491.67) * (5 / 9);
-};
+exports.__esModule = true;
+/**
+ * Converts Rankine (R) to Celsius (C)
+ * @param {number} rankine
+ * @returns {number}
+ */
+function default_1(rankine) {
+    return (rankine - 491.67) * (5 / 9);
+}
+exports["default"] = default_1;

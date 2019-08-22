@@ -1,9 +1,11 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (milliseconds) {
-  return milliseconds / 1000 / 60 / 60;
-};
+exports.__esModule = true;
+/**
+ * Converts Milliseconds (ms) to Hours (h)
+ * @param {number} milliseconds
+ * @returns {number}
+ */
+function default_1(milliseconds) {
+    return milliseconds / 1000 / 60 / 60;
+}
+exports["default"] = default_1;

@@ -1,9 +1,11 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (fahrenheit) {
-  return (fahrenheit + 459.67) * (5 / 9);
-};
+exports.__esModule = true;
+/**
+ * Converts Fahrenheit (F) to Kelvin (K)
+ * @param {number} fahrenheit
+ * @returns {number}
+ */
+function default_1(fahrenheit) {
+    return (fahrenheit + 459.67) * (5 / 9);
+}
+exports["default"] = default_1;

@@ -1,9 +1,11 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (stones) {
-  return stones * 6.35029;
-};
+exports.__esModule = true;
+/**
+ * Converts Stones (st) to Kilograms (kg)
+ * @param {number} stones
+ * @returns {number}
+ */
+function default_1(stones) {
+    return stones * 6.35029;
+}
+exports["default"] = default_1;

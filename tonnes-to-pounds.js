@@ -1,9 +1,11 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (tonnes) {
-  return tonnes * 2204.6215;
-};
+exports.__esModule = true;
+/**
+ * Converts Tonnes (t) to Pounds (lb)
+ * @param {number} tonnes
+ * @returns {number}
+ */
+function default_1(tonnes) {
+    return tonnes * 2204.6215;
+}
+exports["default"] = default_1;

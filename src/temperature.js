@@ -1,28 +1,29 @@
-
-import kelvinToFahrenheit from './temperature/kelvin-to-fahrenheit.js';
-import kelvinToCelsius from './temperature/kelvin-to-celsius.js';
-import kelvinToRankine from './temperature/kelvin-to-rankine.js';
-import fahrenheitToKelvin from './temperature/fahrenheit-to-kelvin.js';
-import fahrenheitToCelsius from './temperature/fahrenheit-to-celsius.js';
-import fahrenheitToRankine from './temperature/fahrenheit-to-rankine.js';
-import celsiusToFahrenheit from './temperature/celsius-to-fahrenheit.js';
-import celsiusToKelvin from './temperature/celsius-to-kelvin.js';
-import celsiusToRankine from './temperature/celsius-to-rankine.js';
-import rankineToKelvin from './temperature/rankine-to-kelvin.js';
-import rankineToFahrenheit from './temperature/rankine-to-fahrenheit.js';
-import rankineToCelsius from './temperature/rankine-to-celsius.js';
-
-export default {
-	kelvinToFahrenheit,
-	kelvinToCelsius,
-	kelvinToRankine,
-	fahrenheitToKelvin,
-	fahrenheitToCelsius,
-	fahrenheitToRankine,
-	celsiusToFahrenheit,
-	celsiusToKelvin,
-	celsiusToRankine,
-	rankineToKelvin,
-	rankineToFahrenheit,
-	rankineToCelsius
+"use strict";
+exports.__esModule = true;
+var kelvin_to_fahrenheit_1 = require("./temperature/kelvin-to-fahrenheit");
+var kelvin_to_celsius_1 = require("./temperature/kelvin-to-celsius");
+var kelvin_to_rankine_1 = require("./temperature/kelvin-to-rankine");
+var fahrenheit_to_kelvin_1 = require("./temperature/fahrenheit-to-kelvin");
+var fahrenheit_to_celsius_1 = require("./temperature/fahrenheit-to-celsius");
+var fahrenheit_to_rankine_1 = require("./temperature/fahrenheit-to-rankine");
+var celsius_to_fahrenheit_1 = require("./temperature/celsius-to-fahrenheit");
+var celsius_to_kelvin_1 = require("./temperature/celsius-to-kelvin");
+var celsius_to_rankine_1 = require("./temperature/celsius-to-rankine");
+var rankine_to_kelvin_1 = require("./temperature/rankine-to-kelvin");
+var rankine_to_fahrenheit_1 = require("./temperature/rankine-to-fahrenheit");
+var rankine_to_celsius_1 = require("./temperature/rankine-to-celsius");
+exports["default"] = {
+    kelvinToFahrenheit: kelvin_to_fahrenheit_1["default"],
+    kelvinToCelsius: kelvin_to_celsius_1["default"],
+    kelvinToRankine: kelvin_to_rankine_1["default"],
+    fahrenheitToKelvin: fahrenheit_to_kelvin_1["default"],
+    fahrenheitToCelsius: fahrenheit_to_celsius_1["default"],
+    fahrenheitToRankine: fahrenheit_to_rankine_1["default"],
+    celsiusToFahrenheit: celsius_to_fahrenheit_1["default"],
+    celsiusToKelvin: celsius_to_kelvin_1["default"],
+    celsiusToRankine: celsius_to_rankine_1["default"],
+    rankineToKelvin: rankine_to_kelvin_1["default"],
+    rankineToFahrenheit: rankine_to_fahrenheit_1["default"],
+    rankineToCelsius: rankine_to_celsius_1["default"]
 };
+//# sourceMappingURL=temperature.js.map

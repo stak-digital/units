@@ -1,9 +1,11 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (petabit) {
-  return petabit * 1.25e8;
-};
+exports.__esModule = true;
+/**
+ * Converts Petabit (Pbit) to Megabyte (MB)
+ * @param {number} petabit
+ * @returns {number}
+ */
+function default_1(petabit) {
+    return petabit * 1.25e8;
+}
+exports["default"] = default_1;

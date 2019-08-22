@@ -1,9 +1,11 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (byte) {
-  return byte * 8;
-};
+exports.__esModule = true;
+/**
+ * Converts Byte (B) to Bit (bit)
+ * @param {number} byte
+ * @returns {number}
+ */
+function default_1(byte) {
+    return byte * 8;
+}
+exports["default"] = default_1;

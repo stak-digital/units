@@ -37,7 +37,7 @@ glob('./src/data/*.json', (err, files) => {
  * @param {number} ${unit.name}
  * @returns {number}
  */
-export default function(${unit.name}) {
+export default function(${unit.name} : number) : number {
 	return ${value.formula.replace('n', unit.name)};
 }
 `,
@@ -67,15 +67,15 @@ test('it should return the correct values', () => {
 
 		let categoryFileImports = '';
 		let categoryFileFunctions = [];
-		const categoryFileName = `${category.name}.js`;
+		const categoryFileName = `${category.name}.ts`;
 		const categoryPath = `./src/${category.name}`;
 
 		unitsWithFunctions.forEach(unit => {
 			return unit.functions.forEach(unitFunction => {
-				const functionPath = `${categoryPath}/${unitFunction.name}.js`;
+				const functionPath = `${categoryPath}/${unitFunction.name}.ts`;
 				const functionName = camelCase(unitFunction.name);
 
-				categoryFileImports = categoryFileImports + `import ${functionName} from '${functionPath.replace('./src/', './')}';\n`;
+				categoryFileImports = categoryFileImports + `import ${functionName} from '${functionPath.replace('./src/', './').replace('.ts', '')}';\n`;
 				categoryFileFunctions.push(functionName);
 
 				shell.mkdir('-p', categoryPath);
@@ -86,7 +86,7 @@ test('it should return the correct values', () => {
 
 				shell.mkdir('-p', testsPath);
 				console.log(chalk.green(`Writing ${unitFunction.name} tests to ${testsPath}`));
-				fs.writeFileSync(`${testsPath}/${unitFunction.name}.test.js`, unitFunction.tests);
+				fs.writeFileSync(`${testsPath}/${unitFunction.name}.test.ts`, unitFunction.tests);
 			});
 		});
 
@@ -100,7 +100,7 @@ export default {${categoryFileFunctions.reduce((acc, curr) => {
 `);
 
 		console.log(chalk.green(`Writing to ${categoryFileName} tests`));
-		fs.writeFileSync(`./tests/${category.name}.test.js`, `import ${camelCase(category.name)} from '../src/${category.name}';
+		fs.writeFileSync(`./tests/${category.name}.test.ts`, `import ${camelCase(category.name)} from '../src/${category.name}';
 import expect from 'expect';
 
 test('it should exist', () => {
@@ -130,23 +130,23 @@ test('it should have all ${category.name} properties', () => {
 });
 `);
 
-		glob('./src/*.js', (err, files) => {
-			const filesWithoutIndex = files.filter(file => !file.includes('index.js'));
+		glob('./src/*.ts', (err, files) => {
+			const filesWithoutIndex = files.filter(file => !file.includes('index.ts'));
 
 			const contents = `${filesWithoutIndex.reduce((acc, curr) => {
 				const filename = getFilenameFromPath(curr);
 
-				return `${acc}\nimport ${camelCase(filename.replace('.js', ''))} from './${filename}'`;
+				return `${acc}\nimport ${camelCase(filename.replace('.ts', ''))} from './${filename.replace('.ts', '')}'`;
 			}, '')}
 
 export default {${filesWithoutIndex.reduce((acc, curr) => {
-				const filename = getFilenameFromPath(curr).replace('.js', '');
+				const filename = getFilenameFromPath(curr).replace('.ts', '');
 
 				return `${acc}${acc !== '' ? ',' : ''}\n\t...${camelCase(filename)}`;
 			}, '')}
 };
 `;
-			fs.writeFileSync('./src/index.js', contents);
+			fs.writeFileSync('./src/index.ts', contents);
 		});
 	});
 });

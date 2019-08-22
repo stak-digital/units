@@ -1,9 +1,11 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (statampere) {
-  return statampere / 29979245368.431;
-};
+exports.__esModule = true;
+/**
+ * Converts Statampere (statA) to Abampere (abA)
+ * @param {number} statampere
+ * @returns {number}
+ */
+function default_1(statampere) {
+    return statampere / 29979245368.431;
+}
+exports["default"] = default_1;

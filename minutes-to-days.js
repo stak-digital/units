@@ -1,9 +1,11 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (minutes) {
-  return minutes / 60 / 24;
-};
+exports.__esModule = true;
+/**
+ * Converts Minutes (min) to Days (days)
+ * @param {number} minutes
+ * @returns {number}
+ */
+function default_1(minutes) {
+    return minutes / 60 / 24;
+}
+exports["default"] = default_1;

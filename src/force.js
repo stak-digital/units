@@ -1,64 +1,65 @@
-
-import newtonToDyne from './force/newton-to-dyne.js';
-import newtonToKilopond from './force/newton-to-kilopond.js';
-import newtonToPoundal from './force/newton-to-poundal.js';
-import newtonToPoundForce from './force/newton-to-pound-force.js';
-import newtonToOunceForce from './force/newton-to-ounce-force.js';
-import dyneToNewton from './force/dyne-to-newton.js';
-import dyneToKilopond from './force/dyne-to-kilopond.js';
-import dyneToPoundal from './force/dyne-to-poundal.js';
-import dyneToPoundForce from './force/dyne-to-pound-force.js';
-import dyneToOunceForce from './force/dyne-to-ounce-force.js';
-import kilopondToNewton from './force/kilopond-to-newton.js';
-import kilopondToDyne from './force/kilopond-to-dyne.js';
-import kilopondToPoundal from './force/kilopond-to-poundal.js';
-import kilopondToPoundForce from './force/kilopond-to-pound-force.js';
-import kilopondToOunceForce from './force/kilopond-to-ounce-force.js';
-import poundalToNewton from './force/poundal-to-newton.js';
-import poundalToDyne from './force/poundal-to-dyne.js';
-import poundalToKilopond from './force/poundal-to-kilopond.js';
-import poundalToPoundForce from './force/poundal-to-pound-force.js';
-import poundalToOunceForce from './force/poundal-to-ounce-force.js';
-import poundForceToNewton from './force/pound-force-to-newton.js';
-import poundForceToDyne from './force/pound-force-to-dyne.js';
-import poundForceToKilopond from './force/pound-force-to-kilopond.js';
-import poundForceToPoundal from './force/pound-force-to-poundal.js';
-import poundForceToOunceForce from './force/pound-force-to-ounce-force.js';
-import ounceForceToNewton from './force/ounce-force-to-newton.js';
-import ounceForceToDyne from './force/ounce-force-to-dyne.js';
-import ounceForceToKilopond from './force/ounce-force-to-kilopond.js';
-import ounceForceToPoundal from './force/ounce-force-to-poundal.js';
-import ounceForceToPoundForce from './force/ounce-force-to-pound-force.js';
-
-export default {
-	newtonToDyne,
-	newtonToKilopond,
-	newtonToPoundal,
-	newtonToPoundForce,
-	newtonToOunceForce,
-	dyneToNewton,
-	dyneToKilopond,
-	dyneToPoundal,
-	dyneToPoundForce,
-	dyneToOunceForce,
-	kilopondToNewton,
-	kilopondToDyne,
-	kilopondToPoundal,
-	kilopondToPoundForce,
-	kilopondToOunceForce,
-	poundalToNewton,
-	poundalToDyne,
-	poundalToKilopond,
-	poundalToPoundForce,
-	poundalToOunceForce,
-	poundForceToNewton,
-	poundForceToDyne,
-	poundForceToKilopond,
-	poundForceToPoundal,
-	poundForceToOunceForce,
-	ounceForceToNewton,
-	ounceForceToDyne,
-	ounceForceToKilopond,
-	ounceForceToPoundal,
-	ounceForceToPoundForce
+"use strict";
+exports.__esModule = true;
+var newton_to_dyne_1 = require("./force/newton-to-dyne");
+var newton_to_kilopond_1 = require("./force/newton-to-kilopond");
+var newton_to_poundal_1 = require("./force/newton-to-poundal");
+var newton_to_pound_force_1 = require("./force/newton-to-pound-force");
+var newton_to_ounce_force_1 = require("./force/newton-to-ounce-force");
+var dyne_to_newton_1 = require("./force/dyne-to-newton");
+var dyne_to_kilopond_1 = require("./force/dyne-to-kilopond");
+var dyne_to_poundal_1 = require("./force/dyne-to-poundal");
+var dyne_to_pound_force_1 = require("./force/dyne-to-pound-force");
+var dyne_to_ounce_force_1 = require("./force/dyne-to-ounce-force");
+var kilopond_to_newton_1 = require("./force/kilopond-to-newton");
+var kilopond_to_dyne_1 = require("./force/kilopond-to-dyne");
+var kilopond_to_poundal_1 = require("./force/kilopond-to-poundal");
+var kilopond_to_pound_force_1 = require("./force/kilopond-to-pound-force");
+var kilopond_to_ounce_force_1 = require("./force/kilopond-to-ounce-force");
+var poundal_to_newton_1 = require("./force/poundal-to-newton");
+var poundal_to_dyne_1 = require("./force/poundal-to-dyne");
+var poundal_to_kilopond_1 = require("./force/poundal-to-kilopond");
+var poundal_to_pound_force_1 = require("./force/poundal-to-pound-force");
+var poundal_to_ounce_force_1 = require("./force/poundal-to-ounce-force");
+var pound_force_to_newton_1 = require("./force/pound-force-to-newton");
+var pound_force_to_dyne_1 = require("./force/pound-force-to-dyne");
+var pound_force_to_kilopond_1 = require("./force/pound-force-to-kilopond");
+var pound_force_to_poundal_1 = require("./force/pound-force-to-poundal");
+var pound_force_to_ounce_force_1 = require("./force/pound-force-to-ounce-force");
+var ounce_force_to_newton_1 = require("./force/ounce-force-to-newton");
+var ounce_force_to_dyne_1 = require("./force/ounce-force-to-dyne");
+var ounce_force_to_kilopond_1 = require("./force/ounce-force-to-kilopond");
+var ounce_force_to_poundal_1 = require("./force/ounce-force-to-poundal");
+var ounce_force_to_pound_force_1 = require("./force/ounce-force-to-pound-force");
+exports["default"] = {
+    newtonToDyne: newton_to_dyne_1["default"],
+    newtonToKilopond: newton_to_kilopond_1["default"],
+    newtonToPoundal: newton_to_poundal_1["default"],
+    newtonToPoundForce: newton_to_pound_force_1["default"],
+    newtonToOunceForce: newton_to_ounce_force_1["default"],
+    dyneToNewton: dyne_to_newton_1["default"],
+    dyneToKilopond: dyne_to_kilopond_1["default"],
+    dyneToPoundal: dyne_to_poundal_1["default"],
+    dyneToPoundForce: dyne_to_pound_force_1["default"],
+    dyneToOunceForce: dyne_to_ounce_force_1["default"],
+    kilopondToNewton: kilopond_to_newton_1["default"],
+    kilopondToDyne: kilopond_to_dyne_1["default"],
+    kilopondToPoundal: kilopond_to_poundal_1["default"],
+    kilopondToPoundForce: kilopond_to_pound_force_1["default"],
+    kilopondToOunceForce: kilopond_to_ounce_force_1["default"],
+    poundalToNewton: poundal_to_newton_1["default"],
+    poundalToDyne: poundal_to_dyne_1["default"],
+    poundalToKilopond: poundal_to_kilopond_1["default"],
+    poundalToPoundForce: poundal_to_pound_force_1["default"],
+    poundalToOunceForce: poundal_to_ounce_force_1["default"],
+    poundForceToNewton: pound_force_to_newton_1["default"],
+    poundForceToDyne: pound_force_to_dyne_1["default"],
+    poundForceToKilopond: pound_force_to_kilopond_1["default"],
+    poundForceToPoundal: pound_force_to_poundal_1["default"],
+    poundForceToOunceForce: pound_force_to_ounce_force_1["default"],
+    ounceForceToNewton: ounce_force_to_newton_1["default"],
+    ounceForceToDyne: ounce_force_to_dyne_1["default"],
+    ounceForceToKilopond: ounce_force_to_kilopond_1["default"],
+    ounceForceToPoundal: ounce_force_to_poundal_1["default"],
+    ounceForceToPoundForce: ounce_force_to_pound_force_1["default"]
 };
+//# sourceMappingURL=force.js.map

@@ -1,9 +1,11 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (inches) {
-  return inches * 0.0254;
-};
+exports.__esModule = true;
+/**
+ * Converts Inches to Metres
+ * @param {number} inches
+ * @returns {number}
+ */
+function default_1(inches) {
+    return inches * 0.0254;
+}
+exports["default"] = default_1;

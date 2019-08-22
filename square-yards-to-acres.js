@@ -1,9 +1,11 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (squareYards) {
-  return squareYards * 0.00020661;
-};
+exports.__esModule = true;
+/**
+ * Converts Square Yards (yd²) to Acres (ac)
+ * @param {number} squareYards
+ * @returns {number}
+ */
+function default_1(squareYards) {
+    return squareYards * 0.00020661;
+}
+exports["default"] = default_1;

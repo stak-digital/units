@@ -1,9 +1,11 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (days) {
-  return days * 86400;
-};
+exports.__esModule = true;
+/**
+ * Converts Days (days) to Seconds (s)
+ * @param {number} days
+ * @returns {number}
+ */
+function default_1(days) {
+    return days * 86400;
+}
+exports["default"] = default_1;

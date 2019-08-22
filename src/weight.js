@@ -1,28 +1,29 @@
-
-import kilogramsToPounds from './weight/kilograms-to-pounds.js';
-import kilogramsToStones from './weight/kilograms-to-stones.js';
-import kilogramsToTonnes from './weight/kilograms-to-tonnes.js';
-import poundsToKilograms from './weight/pounds-to-kilograms.js';
-import poundsToStones from './weight/pounds-to-stones.js';
-import poundsToTonnes from './weight/pounds-to-tonnes.js';
-import stonesToKilograms from './weight/stones-to-kilograms.js';
-import stonesToPounds from './weight/stones-to-pounds.js';
-import stonesToTonnes from './weight/stones-to-tonnes.js';
-import tonnesToKilograms from './weight/tonnes-to-kilograms.js';
-import tonnesToPounds from './weight/tonnes-to-pounds.js';
-import tonnesToStones from './weight/tonnes-to-stones.js';
-
-export default {
-	kilogramsToPounds,
-	kilogramsToStones,
-	kilogramsToTonnes,
-	poundsToKilograms,
-	poundsToStones,
-	poundsToTonnes,
-	stonesToKilograms,
-	stonesToPounds,
-	stonesToTonnes,
-	tonnesToKilograms,
-	tonnesToPounds,
-	tonnesToStones
+"use strict";
+exports.__esModule = true;
+var kilograms_to_pounds_1 = require("./weight/kilograms-to-pounds");
+var kilograms_to_stones_1 = require("./weight/kilograms-to-stones");
+var kilograms_to_tonnes_1 = require("./weight/kilograms-to-tonnes");
+var pounds_to_kilograms_1 = require("./weight/pounds-to-kilograms");
+var pounds_to_stones_1 = require("./weight/pounds-to-stones");
+var pounds_to_tonnes_1 = require("./weight/pounds-to-tonnes");
+var stones_to_kilograms_1 = require("./weight/stones-to-kilograms");
+var stones_to_pounds_1 = require("./weight/stones-to-pounds");
+var stones_to_tonnes_1 = require("./weight/stones-to-tonnes");
+var tonnes_to_kilograms_1 = require("./weight/tonnes-to-kilograms");
+var tonnes_to_pounds_1 = require("./weight/tonnes-to-pounds");
+var tonnes_to_stones_1 = require("./weight/tonnes-to-stones");
+exports["default"] = {
+    kilogramsToPounds: kilograms_to_pounds_1["default"],
+    kilogramsToStones: kilograms_to_stones_1["default"],
+    kilogramsToTonnes: kilograms_to_tonnes_1["default"],
+    poundsToKilograms: pounds_to_kilograms_1["default"],
+    poundsToStones: pounds_to_stones_1["default"],
+    poundsToTonnes: pounds_to_tonnes_1["default"],
+    stonesToKilograms: stones_to_kilograms_1["default"],
+    stonesToPounds: stones_to_pounds_1["default"],
+    stonesToTonnes: stones_to_tonnes_1["default"],
+    tonnesToKilograms: tonnes_to_kilograms_1["default"],
+    tonnesToPounds: tonnes_to_pounds_1["default"],
+    tonnesToStones: tonnes_to_stones_1["default"]
 };
+//# sourceMappingURL=weight.js.map

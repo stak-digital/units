@@ -1,9 +1,11 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (squareYards) {
-  return squareYards / 1196000;
-};
+exports.__esModule = true;
+/**
+ * Converts Square Yards (yd²) to Square Kilometers (km²)
+ * @param {number} squareYards
+ * @returns {number}
+ */
+function default_1(squareYards) {
+    return squareYards / 1196000;
+}
+exports["default"] = default_1;

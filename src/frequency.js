@@ -1,44 +1,45 @@
-
-import hertzToKilohertz from './frequency/hertz-to-kilohertz.js';
-import hertzToMegahertz from './frequency/hertz-to-megahertz.js';
-import hertzToGigahertz from './frequency/hertz-to-gigahertz.js';
-import hertzToRevolutionsPerMinute from './frequency/hertz-to-revolutions-per-minute.js';
-import kilohertzToHertz from './frequency/kilohertz-to-hertz.js';
-import kilohertzToMegahertz from './frequency/kilohertz-to-megahertz.js';
-import kilohertzToGigahertz from './frequency/kilohertz-to-gigahertz.js';
-import kilohertzToRevolutionsPerMinute from './frequency/kilohertz-to-revolutions-per-minute.js';
-import megahertzToHertz from './frequency/megahertz-to-hertz.js';
-import megahertzToKilohertz from './frequency/megahertz-to-kilohertz.js';
-import megahertzToGigahertz from './frequency/megahertz-to-gigahertz.js';
-import megahertzToRevolutionsPerMinute from './frequency/megahertz-to-revolutions-per-minute.js';
-import gigahertzToHertz from './frequency/gigahertz-to-hertz.js';
-import gigahertzToKilohertz from './frequency/gigahertz-to-kilohertz.js';
-import gigahertzToMegahertz from './frequency/gigahertz-to-megahertz.js';
-import gigahertzToRevolutionsPerMinute from './frequency/gigahertz-to-revolutions-per-minute.js';
-import revolutionsPerMinuteToHertz from './frequency/revolutions-per-minute-to-hertz.js';
-import revolutionsPerMinuteToKilohertz from './frequency/revolutions-per-minute-to-kilohertz.js';
-import revolutionsPerMinuteToMegahertz from './frequency/revolutions-per-minute-to-megahertz.js';
-import revolutionsPerMinuteToGigahertz from './frequency/revolutions-per-minute-to-gigahertz.js';
-
-export default {
-	hertzToKilohertz,
-	hertzToMegahertz,
-	hertzToGigahertz,
-	hertzToRevolutionsPerMinute,
-	kilohertzToHertz,
-	kilohertzToMegahertz,
-	kilohertzToGigahertz,
-	kilohertzToRevolutionsPerMinute,
-	megahertzToHertz,
-	megahertzToKilohertz,
-	megahertzToGigahertz,
-	megahertzToRevolutionsPerMinute,
-	gigahertzToHertz,
-	gigahertzToKilohertz,
-	gigahertzToMegahertz,
-	gigahertzToRevolutionsPerMinute,
-	revolutionsPerMinuteToHertz,
-	revolutionsPerMinuteToKilohertz,
-	revolutionsPerMinuteToMegahertz,
-	revolutionsPerMinuteToGigahertz
+"use strict";
+exports.__esModule = true;
+var hertz_to_kilohertz_1 = require("./frequency/hertz-to-kilohertz");
+var hertz_to_megahertz_1 = require("./frequency/hertz-to-megahertz");
+var hertz_to_gigahertz_1 = require("./frequency/hertz-to-gigahertz");
+var hertz_to_revolutions_per_minute_1 = require("./frequency/hertz-to-revolutions-per-minute");
+var kilohertz_to_hertz_1 = require("./frequency/kilohertz-to-hertz");
+var kilohertz_to_megahertz_1 = require("./frequency/kilohertz-to-megahertz");
+var kilohertz_to_gigahertz_1 = require("./frequency/kilohertz-to-gigahertz");
+var kilohertz_to_revolutions_per_minute_1 = require("./frequency/kilohertz-to-revolutions-per-minute");
+var megahertz_to_hertz_1 = require("./frequency/megahertz-to-hertz");
+var megahertz_to_kilohertz_1 = require("./frequency/megahertz-to-kilohertz");
+var megahertz_to_gigahertz_1 = require("./frequency/megahertz-to-gigahertz");
+var megahertz_to_revolutions_per_minute_1 = require("./frequency/megahertz-to-revolutions-per-minute");
+var gigahertz_to_hertz_1 = require("./frequency/gigahertz-to-hertz");
+var gigahertz_to_kilohertz_1 = require("./frequency/gigahertz-to-kilohertz");
+var gigahertz_to_megahertz_1 = require("./frequency/gigahertz-to-megahertz");
+var gigahertz_to_revolutions_per_minute_1 = require("./frequency/gigahertz-to-revolutions-per-minute");
+var revolutions_per_minute_to_hertz_1 = require("./frequency/revolutions-per-minute-to-hertz");
+var revolutions_per_minute_to_kilohertz_1 = require("./frequency/revolutions-per-minute-to-kilohertz");
+var revolutions_per_minute_to_megahertz_1 = require("./frequency/revolutions-per-minute-to-megahertz");
+var revolutions_per_minute_to_gigahertz_1 = require("./frequency/revolutions-per-minute-to-gigahertz");
+exports["default"] = {
+    hertzToKilohertz: hertz_to_kilohertz_1["default"],
+    hertzToMegahertz: hertz_to_megahertz_1["default"],
+    hertzToGigahertz: hertz_to_gigahertz_1["default"],
+    hertzToRevolutionsPerMinute: hertz_to_revolutions_per_minute_1["default"],
+    kilohertzToHertz: kilohertz_to_hertz_1["default"],
+    kilohertzToMegahertz: kilohertz_to_megahertz_1["default"],
+    kilohertzToGigahertz: kilohertz_to_gigahertz_1["default"],
+    kilohertzToRevolutionsPerMinute: kilohertz_to_revolutions_per_minute_1["default"],
+    megahertzToHertz: megahertz_to_hertz_1["default"],
+    megahertzToKilohertz: megahertz_to_kilohertz_1["default"],
+    megahertzToGigahertz: megahertz_to_gigahertz_1["default"],
+    megahertzToRevolutionsPerMinute: megahertz_to_revolutions_per_minute_1["default"],
+    gigahertzToHertz: gigahertz_to_hertz_1["default"],
+    gigahertzToKilohertz: gigahertz_to_kilohertz_1["default"],
+    gigahertzToMegahertz: gigahertz_to_megahertz_1["default"],
+    gigahertzToRevolutionsPerMinute: gigahertz_to_revolutions_per_minute_1["default"],
+    revolutionsPerMinuteToHertz: revolutions_per_minute_to_hertz_1["default"],
+    revolutionsPerMinuteToKilohertz: revolutions_per_minute_to_kilohertz_1["default"],
+    revolutionsPerMinuteToMegahertz: revolutions_per_minute_to_megahertz_1["default"],
+    revolutionsPerMinuteToGigahertz: revolutions_per_minute_to_gigahertz_1["default"]
 };
+//# sourceMappingURL=frequency.js.map

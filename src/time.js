@@ -1,88 +1,89 @@
-
-import nanosecondsToMicroseconds from './time/nanoseconds-to-microseconds.js';
-import nanosecondsToMilliseconds from './time/nanoseconds-to-milliseconds.js';
-import nanosecondsToSeconds from './time/nanoseconds-to-seconds.js';
-import nanosecondsToMinutes from './time/nanoseconds-to-minutes.js';
-import nanosecondsToHours from './time/nanoseconds-to-hours.js';
-import nanosecondsToDays from './time/nanoseconds-to-days.js';
-import microsecondsToNanoseconds from './time/microseconds-to-nanoseconds.js';
-import microsecondsToMilliseconds from './time/microseconds-to-milliseconds.js';
-import microsecondsToSeconds from './time/microseconds-to-seconds.js';
-import microsecondsToMinutes from './time/microseconds-to-minutes.js';
-import microsecondsToHours from './time/microseconds-to-hours.js';
-import microsecondsToDays from './time/microseconds-to-days.js';
-import millisecondsToNanoseconds from './time/milliseconds-to-nanoseconds.js';
-import millisecondsToMicroseconds from './time/milliseconds-to-microseconds.js';
-import millisecondsToSeconds from './time/milliseconds-to-seconds.js';
-import millisecondsToMinutes from './time/milliseconds-to-minutes.js';
-import millisecondsToHours from './time/milliseconds-to-hours.js';
-import millisecondsToDays from './time/milliseconds-to-days.js';
-import secondsToNanoseconds from './time/seconds-to-nanoseconds.js';
-import secondsToMicroseconds from './time/seconds-to-microseconds.js';
-import secondsToMilliseconds from './time/seconds-to-milliseconds.js';
-import secondsToMinutes from './time/seconds-to-minutes.js';
-import secondsToHours from './time/seconds-to-hours.js';
-import secondsToDays from './time/seconds-to-days.js';
-import minutesToNanoseconds from './time/minutes-to-nanoseconds.js';
-import minutesToMicroseconds from './time/minutes-to-microseconds.js';
-import minutesToMilliseconds from './time/minutes-to-milliseconds.js';
-import minutesToSeconds from './time/minutes-to-seconds.js';
-import minutesToHours from './time/minutes-to-hours.js';
-import minutesToDays from './time/minutes-to-days.js';
-import hoursToNanoseconds from './time/hours-to-nanoseconds.js';
-import hoursToMicroseconds from './time/hours-to-microseconds.js';
-import hoursToMilliseconds from './time/hours-to-milliseconds.js';
-import hoursToSeconds from './time/hours-to-seconds.js';
-import hoursToMinutes from './time/hours-to-minutes.js';
-import hoursToDays from './time/hours-to-days.js';
-import daysToNanoseconds from './time/days-to-nanoseconds.js';
-import daysToMicroseconds from './time/days-to-microseconds.js';
-import daysToMilliseconds from './time/days-to-milliseconds.js';
-import daysToSeconds from './time/days-to-seconds.js';
-import daysToMinutes from './time/days-to-minutes.js';
-import daysToHours from './time/days-to-hours.js';
-
-export default {
-	nanosecondsToMicroseconds,
-	nanosecondsToMilliseconds,
-	nanosecondsToSeconds,
-	nanosecondsToMinutes,
-	nanosecondsToHours,
-	nanosecondsToDays,
-	microsecondsToNanoseconds,
-	microsecondsToMilliseconds,
-	microsecondsToSeconds,
-	microsecondsToMinutes,
-	microsecondsToHours,
-	microsecondsToDays,
-	millisecondsToNanoseconds,
-	millisecondsToMicroseconds,
-	millisecondsToSeconds,
-	millisecondsToMinutes,
-	millisecondsToHours,
-	millisecondsToDays,
-	secondsToNanoseconds,
-	secondsToMicroseconds,
-	secondsToMilliseconds,
-	secondsToMinutes,
-	secondsToHours,
-	secondsToDays,
-	minutesToNanoseconds,
-	minutesToMicroseconds,
-	minutesToMilliseconds,
-	minutesToSeconds,
-	minutesToHours,
-	minutesToDays,
-	hoursToNanoseconds,
-	hoursToMicroseconds,
-	hoursToMilliseconds,
-	hoursToSeconds,
-	hoursToMinutes,
-	hoursToDays,
-	daysToNanoseconds,
-	daysToMicroseconds,
-	daysToMilliseconds,
-	daysToSeconds,
-	daysToMinutes,
-	daysToHours
+"use strict";
+exports.__esModule = true;
+var nanoseconds_to_microseconds_1 = require("./time/nanoseconds-to-microseconds");
+var nanoseconds_to_milliseconds_1 = require("./time/nanoseconds-to-milliseconds");
+var nanoseconds_to_seconds_1 = require("./time/nanoseconds-to-seconds");
+var nanoseconds_to_minutes_1 = require("./time/nanoseconds-to-minutes");
+var nanoseconds_to_hours_1 = require("./time/nanoseconds-to-hours");
+var nanoseconds_to_days_1 = require("./time/nanoseconds-to-days");
+var microseconds_to_nanoseconds_1 = require("./time/microseconds-to-nanoseconds");
+var microseconds_to_milliseconds_1 = require("./time/microseconds-to-milliseconds");
+var microseconds_to_seconds_1 = require("./time/microseconds-to-seconds");
+var microseconds_to_minutes_1 = require("./time/microseconds-to-minutes");
+var microseconds_to_hours_1 = require("./time/microseconds-to-hours");
+var microseconds_to_days_1 = require("./time/microseconds-to-days");
+var milliseconds_to_nanoseconds_1 = require("./time/milliseconds-to-nanoseconds");
+var milliseconds_to_microseconds_1 = require("./time/milliseconds-to-microseconds");
+var milliseconds_to_seconds_1 = require("./time/milliseconds-to-seconds");
+var milliseconds_to_minutes_1 = require("./time/milliseconds-to-minutes");
+var milliseconds_to_hours_1 = require("./time/milliseconds-to-hours");
+var milliseconds_to_days_1 = require("./time/milliseconds-to-days");
+var seconds_to_nanoseconds_1 = require("./time/seconds-to-nanoseconds");
+var seconds_to_microseconds_1 = require("./time/seconds-to-microseconds");
+var seconds_to_milliseconds_1 = require("./time/seconds-to-milliseconds");
+var seconds_to_minutes_1 = require("./time/seconds-to-minutes");
+var seconds_to_hours_1 = require("./time/seconds-to-hours");
+var seconds_to_days_1 = require("./time/seconds-to-days");
+var minutes_to_nanoseconds_1 = require("./time/minutes-to-nanoseconds");
+var minutes_to_microseconds_1 = require("./time/minutes-to-microseconds");
+var minutes_to_milliseconds_1 = require("./time/minutes-to-milliseconds");
+var minutes_to_seconds_1 = require("./time/minutes-to-seconds");
+var minutes_to_hours_1 = require("./time/minutes-to-hours");
+var minutes_to_days_1 = require("./time/minutes-to-days");
+var hours_to_nanoseconds_1 = require("./time/hours-to-nanoseconds");
+var hours_to_microseconds_1 = require("./time/hours-to-microseconds");
+var hours_to_milliseconds_1 = require("./time/hours-to-milliseconds");
+var hours_to_seconds_1 = require("./time/hours-to-seconds");
+var hours_to_minutes_1 = require("./time/hours-to-minutes");
+var hours_to_days_1 = require("./time/hours-to-days");
+var days_to_nanoseconds_1 = require("./time/days-to-nanoseconds");
+var days_to_microseconds_1 = require("./time/days-to-microseconds");
+var days_to_milliseconds_1 = require("./time/days-to-milliseconds");
+var days_to_seconds_1 = require("./time/days-to-seconds");
+var days_to_minutes_1 = require("./time/days-to-minutes");
+var days_to_hours_1 = require("./time/days-to-hours");
+exports["default"] = {
+    nanosecondsToMicroseconds: nanoseconds_to_microseconds_1["default"],
+    nanosecondsToMilliseconds: nanoseconds_to_milliseconds_1["default"],
+    nanosecondsToSeconds: nanoseconds_to_seconds_1["default"],
+    nanosecondsToMinutes: nanoseconds_to_minutes_1["default"],
+    nanosecondsToHours: nanoseconds_to_hours_1["default"],
+    nanosecondsToDays: nanoseconds_to_days_1["default"],
+    microsecondsToNanoseconds: microseconds_to_nanoseconds_1["default"],
+    microsecondsToMilliseconds: microseconds_to_milliseconds_1["default"],
+    microsecondsToSeconds: microseconds_to_seconds_1["default"],
+    microsecondsToMinutes: microseconds_to_minutes_1["default"],
+    microsecondsToHours: microseconds_to_hours_1["default"],
+    microsecondsToDays: microseconds_to_days_1["default"],
+    millisecondsToNanoseconds: milliseconds_to_nanoseconds_1["default"],
+    millisecondsToMicroseconds: milliseconds_to_microseconds_1["default"],
+    millisecondsToSeconds: milliseconds_to_seconds_1["default"],
+    millisecondsToMinutes: milliseconds_to_minutes_1["default"],
+    millisecondsToHours: milliseconds_to_hours_1["default"],
+    millisecondsToDays: milliseconds_to_days_1["default"],
+    secondsToNanoseconds: seconds_to_nanoseconds_1["default"],
+    secondsToMicroseconds: seconds_to_microseconds_1["default"],
+    secondsToMilliseconds: seconds_to_milliseconds_1["default"],
+    secondsToMinutes: seconds_to_minutes_1["default"],
+    secondsToHours: seconds_to_hours_1["default"],
+    secondsToDays: seconds_to_days_1["default"],
+    minutesToNanoseconds: minutes_to_nanoseconds_1["default"],
+    minutesToMicroseconds: minutes_to_microseconds_1["default"],
+    minutesToMilliseconds: minutes_to_milliseconds_1["default"],
+    minutesToSeconds: minutes_to_seconds_1["default"],
+    minutesToHours: minutes_to_hours_1["default"],
+    minutesToDays: minutes_to_days_1["default"],
+    hoursToNanoseconds: hours_to_nanoseconds_1["default"],
+    hoursToMicroseconds: hours_to_microseconds_1["default"],
+    hoursToMilliseconds: hours_to_milliseconds_1["default"],
+    hoursToSeconds: hours_to_seconds_1["default"],
+    hoursToMinutes: hours_to_minutes_1["default"],
+    hoursToDays: hours_to_days_1["default"],
+    daysToNanoseconds: days_to_nanoseconds_1["default"],
+    daysToMicroseconds: days_to_microseconds_1["default"],
+    daysToMilliseconds: days_to_milliseconds_1["default"],
+    daysToSeconds: days_to_seconds_1["default"],
+    daysToMinutes: days_to_minutes_1["default"],
+    daysToHours: days_to_hours_1["default"]
 };
+//# sourceMappingURL=time.js.map

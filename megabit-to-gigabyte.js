@@ -1,9 +1,11 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (megabit) {
-  return megabit / 8000;
-};
+exports.__esModule = true;
+/**
+ * Converts Megabit (Mbit) to Gigabyte (GB)
+ * @param {number} megabit
+ * @returns {number}
+ */
+function default_1(megabit) {
+    return megabit / 8000;
+}
+exports["default"] = default_1;

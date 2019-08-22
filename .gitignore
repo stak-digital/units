@@ -10,3 +10,4 @@ weight.js
 coverage
 node_modules
 docs.json
+.cache

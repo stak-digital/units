@@ -1,8 +1,0 @@
-/**
- * Converts Stones (st) to Pounds (lb)
- * @param {number} stones
- * @returns {number}
- */
-export default function(stones) {
-	return stones * 14;
-}

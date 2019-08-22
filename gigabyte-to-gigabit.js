@@ -1,9 +1,11 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (gigabyte) {
-  return gigabyte * 8;
-};
+exports.__esModule = true;
+/**
+ * Converts Gigabyte (GB) to Gigabit (Gbit)
+ * @param {number} gigabyte
+ * @returns {number}
+ */
+function default_1(gigabyte) {
+    return gigabyte * 8;
+}
+exports["default"] = default_1;
