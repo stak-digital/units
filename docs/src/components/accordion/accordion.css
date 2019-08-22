@@ -2,7 +2,6 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 20px;
 }
 
 .accordion__title-container h1 {
@@ -17,8 +16,12 @@
 
 .accordion__inner {
 	visibility: hidden;
+	height: 0;
+	overflow: hidden;
 }
 
 .accordion__inner.is-open {
 	visibility: visible;
+	height: auto;
+	overflow: auto;
 }

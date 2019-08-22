@@ -1,10 +1,24 @@
 .sidebar {
 	width: 20%;
-	max-height: 100vh;
+	height: 100vh;
+	position: fixed;
 	overflow: auto;
 	margin-right: 30px;
-	padding-right: 20px;
+	padding: 20px;
+	background-color: #3f51b5;
+	box-shadow: 1px 1px 10px 1px #00000077;
+	color: #fff;
+	font-size: 1.8rem;
 }
+
+.sidebar a {
+	color: #fff;
+}
+
+.sidebar button {
+	color: #fff;
+}
+
 .sidebar label {
 	display: flex;
 	flex-direction: column;
@@ -17,4 +31,5 @@
 }
 .sidebar ul ul {
 	padding-left: 20px;
+	margin: 0;
 }
