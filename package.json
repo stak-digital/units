@@ -49,10 +49,10 @@
 		"postinstall": "npm run all",
 		"test": "jest --coverage && codecov",
 		"build": "tsc && mv ./lib/**/* ./ && mv ./lib/* ./ && find . -empty -type d -delete",
-		"build:demo": "NODE_ENV=production parcel build ./docs/index.html -d docs/dist",
+		"build:demo": "NODE_ENV=production parcel build ./docs/src/index.html -d ./",
 		"watch:tests": "NODE_ENV=test jest --watchAll",
-		"watch:demo": "node ./scripts/docs.js && parcel ./docs/index.html",
-		"docs": "node ./scripts/docs.js && npm run build:demo",
+		"watch:demo": "node ./scripts/docs.js && parcel ./docs/src/index.html",
+		"docs": "node ./scripts/docs.js",
 		"start": "npm run all && npm run watch:demo"
 	},
 	"dependencies": {}
