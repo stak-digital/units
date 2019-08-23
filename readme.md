@@ -189,8 +189,7 @@ and an nEqualsOne value which represents the return value when an input of `1` i
 - [x] Convert existing functions into json version
 - [x] Add expand collapse to each category in the sub-nav and main of docs site
 - [ ] Add roadmap to docs site
-- [ ] Convert docs site to Vue Press
-- [ ] add typescript typings
+- [x] add typescript typings
 
 ### Angles
 
@@ -338,7 +337,30 @@ and an nEqualsOne value which represents the return value when an input of `1` i
 - curie (Ci)
 - rutherford (rd)
 
+### Data Transfer Rate
+
+- bit per second (bit/s)
+- kilobit per second (kbit/s)
+- kilobyte per second (kB/s)
+- kibibit per second (Kibit/s)
+- megabit per second (Mbit/s)
+- megabyte per second (MB/s)
+- mebibit per second (Mibit)
+- Gigabit  per second (Gbit/s)
+- Gigabyte per second (GB/s)
+- Gibibit  per second (Gibit/s)
+- Terabit per second (Tbit/s)
+- Terabyte per second (TB/s)
+- Tebibit per second (Tibit/s)
+- Petabit per second (Pbit/s)
+- Petabyte per second (PB/s)
+- Pebibit per second (Pibit/s)
+
 ## Changelog
+
+### 1.10.0
+
+- Convert to TypeScript
 
 ### 1.8.0
 
