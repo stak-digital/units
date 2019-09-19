@@ -46,7 +46,6 @@
 	"scripts": {
 		"preversion": "npm run all && npm test",
 		"all": "node scripts/units.js && npm run build && npm run docs && npm run build:demo",
-		"postinstall": "npm run all",
 		"test": "jest --coverage && codecov",
 		"build": "tsc && mv ./lib/**/* ./ && mv ./lib/* ./ && find . -empty -type d -delete",
 		"build:demo": "NODE_ENV=production parcel build ./docs/src/index.html -d ./docs",
