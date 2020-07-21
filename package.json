@@ -23,7 +23,7 @@
 		"allege": "^1.0.6",
 		"camel-case": "^3.0.0",
 		"chalk": "^2.3.0",
-		"codecov": "^2.3.0",
+		"codecov": "^3.7.1",
 		"comment-parser": "^0.3.2",
 		"css-loader": "^0.28.7",
 		"expect": "^1.20.2",
